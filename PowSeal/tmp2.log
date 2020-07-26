@@ -1,0 +1,1085 @@
+
+                        -------------
+
+__/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+ _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+  _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+   _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+    _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+     _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+      _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+       _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+        _\///______________\///______________\///__\///////////////__
+
+
+                          Runtime Edition
+
+        PM2 is a Production Process Manager for Node.js applications
+                     with a built-in Load Balancer.
+
+                Start and Daemonize any application:
+                $ pm2 start app.js
+
+                Load Balance 4 instances of api.js:
+                $ pm2 start api.js -i 4
+
+                Monitor in production:
+                $ pm2 monitor
+
+                Make pm2 auto-boot at server restart:
+                $ pm2 startup
+
+                To go further checkout:
+                http://pm2.io/
+
+
+                        -------------
+
+[PM2] Spawning PM2 daemon with pm2_home=/root/.pm2
+[PM2] PM2 Successfully daemonized
+[PM2][WARN] Applications node-app not running, starting...
+[PM2] App [node-app] launched (1 instances)
+┌─────┬─────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼─────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ node-app    │ default     │ 0.1.1   │ fork    │ 30       │ 0s     │ 0    │ online    │ 0%       │ 20.7mb   │ root     │ disabled │
+└─────┴─────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+INFO [07-04|04:45:24.770] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [07-04|04:45:24.779] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[07-04|04:45:24.791] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:24.794] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:24.794] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:24.794] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:24.794] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:24.794] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [07-04|04:45:24.794] Allocated cache and file handles         database=/root/.ethereum/devchain/geth/chaindata cache=16.00MiB handles=16
+INFO [07-04|04:45:24.804] Writing custom genesis block 
+INFO [07-04|04:45:24.805] Persisted trie from memory database      nodes=42 size=6.45KiB time="256.682µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-04|04:45:24.806] Successfully wrote genesis state         database=chaindata                               hash="aca18f…3c5f28"
+INFO [07-04|04:45:24.807] Allocated cache and file handles         database=/root/.ethereum/devchain/geth/lightchaindata cache=16.00MiB handles=16
+INFO [07-04|04:45:24.815] Writing custom genesis block 
+INFO [07-04|04:45:24.816] Persisted trie from memory database      nodes=42 size=6.45KiB time="169.168µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-04|04:45:24.816] Successfully wrote genesis state         database=lightchaindata                          hash="aca18f…3c5f28"
+INFO [07-04|04:45:28.162] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [07-04|04:45:28.162] The flag --rpc is deprecated and will be removed in the future, please use --http 
+WARN [07-04|04:45:28.162] The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain 
+INFO [07-04|04:45:28.162] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[07-04|04:45:28.164] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:28.164] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:28.179] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:28.182] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:28.186] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:28.186] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+WARN [07-04|04:45:28.186] The flag --gasprice is deprecated and will be removed in the future, please use --miner.gasprice 
+INFO [07-04|04:45:28.187] Starting peer-to-peer node               instance=Geth/v1.9.16-unstable-dce533c2-20200623/linux-amd64/go1.14.4
+INFO [07-04|04:45:28.187] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [07-04|04:45:28.188] Allocated cache and file handles         database=/root/.ethereum/devchain/geth/chaindata cache=512.00MiB handles=524288
+INFO [07-04|04:45:28.280] Opened ancient database                  database=/root/.ethereum/devchain/geth/chaindata/ancient
+INFO [07-04|04:45:28.280] Initialised chain configuration          config="{ChainID: 456719 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [07-04|04:45:28.280] Disk storage enabled for ethash caches   dir=/root/.ethereum/devchain/geth/ethash count=3
+INFO [07-04|04:45:28.280] Disk storage enabled for ethash DAGs     dir=/root/.ethash                        count=2
+INFO [07-04|04:45:28.280] Initialising Ethereum protocol           versions="[65 64 63]" network=456719 dbversion=<nil>
+WARN [07-04|04:45:28.280] Upgrade blockchain database version      from=<nil> to=7
+INFO [07-04|04:45:28.281] Loaded most recent local header          number=0 hash="aca18f…3c5f28" td=1024 age=51y2mo3w
+INFO [07-04|04:45:28.287] Loaded most recent local full block      number=0 hash="aca18f…3c5f28" td=1024 age=51y2mo3w
+INFO [07-04|04:45:28.287] Loaded most recent local fast block      number=0 hash="aca18f…3c5f28" td=1024 age=51y2mo3w
+INFO [07-04|04:45:28.287] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [07-04|04:45:28.367] Allocated fast sync bloom                size=512.00MiB
+INFO [07-04|04:45:28.417] New local node record                    seq=1 id=352a68891f0ba40b ip=127.0.0.1 udp=30303 tcp=30303
+INFO [07-04|04:45:28.455] IPC endpoint opened                      url=/root/.ethereum/devchain/geth.ipc
+INFO [07-04|04:45:28.456] Started P2P networking                   self=enode://0e155a1567ebe9bcebe7dd9c47efdee6a0533bd074ae8ac810b64affaf9b4aafae0f50f30827bf84ad7916a7a1f2fdc0680f86f95427590a9dc23784a8d7c08e@127.0.0.1:30303
+INFO [07-04|04:45:28.508] HTTP endpoint opened                     url=http://127.0.0.1:8545/            cors=* vhosts=localhost
+INFO [07-04|04:45:28.544] Initialized fast sync bloom              items=42 errorrate=0.000 elapsed=170.998ms
+ERROR[07-04|04:45:29.195] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:29.195] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[07-04|04:45:29.195] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [07-04|04:45:30.586] Etherbase automatically configured       address=0x007CcfFb7916F37F7AEEf05E8096ecFbe55AFc2f
+INFO [07-04|04:45:35.141] Unlocked account                         address=0x007CcfFb7916F37F7AEEf05E8096ecFbe55AFc2f
+INFO [07-04|04:46:24.733] Updated mining threads                   threads=2
+INFO [07-04|04:46:24.733] Transaction pool price threshold updated price=20
+INFO [07-04|04:46:24.734] Commit new mining work                   number=1 sealhash="8cd7c8…90b080" uncles=0 txs=0 gas=0 fees=0 elapsed="390.744µs"
+INFO [07-04|04:46:29.733] Generating DAG in progress               epoch=0 percentage=0 elapsed=4.213s
+INFO [07-04|04:46:34.212] Generating DAG in progress               epoch=0 percentage=1 elapsed=8.692s
+INFO [07-04|04:46:38.883] Generating DAG in progress               epoch=0 percentage=2 elapsed=13.363s
+INFO [07-04|04:46:44.052] Generating DAG in progress               epoch=0 percentage=3 elapsed=18.532s
+INFO [07-04|04:46:51.550] Generating DAG in progress               epoch=0 percentage=4 elapsed=26.030s
+INFO [07-04|04:47:02.151] Generating DAG in progress               epoch=0 percentage=5 elapsed=36.631s
+INFO [07-04|04:47:10.673] Generating DAG in progress               epoch=0 percentage=6 elapsed=45.153s
+INFO [07-04|04:47:18.139] Generating DAG in progress               epoch=0 percentage=7 elapsed=52.619s
+INFO [07-04|04:47:24.410] Generating DAG in progress               epoch=0 percentage=8 elapsed=58.890s
+INFO [07-04|04:47:30.646] Generating DAG in progress               epoch=0 percentage=9 elapsed=1m5.126s
+INFO [07-04|04:47:38.968] Generating DAG in progress               epoch=0 percentage=10 elapsed=1m13.448s
+INFO [07-04|04:47:45.104] Generating DAG in progress               epoch=0 percentage=11 elapsed=1m19.584s
+INFO [07-04|04:47:51.409] Generating DAG in progress               epoch=0 percentage=12 elapsed=1m25.889s
+INFO [07-04|04:47:57.635] Generating DAG in progress               epoch=0 percentage=13 elapsed=1m32.115s
+INFO [07-04|04:48:03.728] Generating DAG in progress               epoch=0 percentage=14 elapsed=1m38.208s
+INFO [07-04|04:48:09.926] Generating DAG in progress               epoch=0 percentage=15 elapsed=1m44.406s
+INFO [07-04|04:48:16.170] Generating DAG in progress               epoch=0 percentage=16 elapsed=1m50.650s
+INFO [07-04|04:48:22.276] Generating DAG in progress               epoch=0 percentage=17 elapsed=1m56.756s
+INFO [07-04|04:48:28.834] Generating DAG in progress               epoch=0 percentage=18 elapsed=2m3.314s
+INFO [07-04|04:48:35.740] Generating DAG in progress               epoch=0 percentage=19 elapsed=2m10.220s
+INFO [07-04|04:48:44.344] Generating DAG in progress               epoch=0 percentage=20 elapsed=2m18.824s
+INFO [07-04|04:48:51.470] Generating DAG in progress               epoch=0 percentage=21 elapsed=2m25.950s
+INFO [07-04|04:48:58.538] Generating DAG in progress               epoch=0 percentage=22 elapsed=2m33.018s
+INFO [07-04|04:49:05.195] Generating DAG in progress               epoch=0 percentage=23 elapsed=2m39.675s
+INFO [07-04|04:49:11.409] Generating DAG in progress               epoch=0 percentage=24 elapsed=2m45.889s
+INFO [07-04|04:49:19.116] Generating DAG in progress               epoch=0 percentage=25 elapsed=2m53.596s
+INFO [07-04|04:49:25.297] Generating DAG in progress               epoch=0 percentage=26 elapsed=2m59.777s
+INFO [07-04|04:49:32.127] Generating DAG in progress               epoch=0 percentage=27 elapsed=3m6.607s
+INFO [07-04|04:49:38.382] Generating DAG in progress               epoch=0 percentage=28 elapsed=3m12.862s
+INFO [07-04|04:49:44.948] Generating DAG in progress               epoch=0 percentage=29 elapsed=3m19.428s
+INFO [07-04|04:49:51.106] Generating DAG in progress               epoch=0 percentage=30 elapsed=3m25.586s
+INFO [07-04|04:49:57.105] Generating DAG in progress               epoch=0 percentage=31 elapsed=3m31.585s
+INFO [07-04|04:50:03.570] Generating DAG in progress               epoch=0 percentage=32 elapsed=3m38.050s
+INFO [07-04|04:50:09.725] Generating DAG in progress               epoch=0 percentage=33 elapsed=3m44.205s
+INFO [07-04|04:50:15.938] Generating DAG in progress               epoch=0 percentage=34 elapsed=3m50.418s
+INFO [07-04|04:50:22.109] Generating DAG in progress               epoch=0 percentage=35 elapsed=3m56.589s
+INFO [07-04|04:50:31.663] Generating DAG in progress               epoch=0 percentage=36 elapsed=4m6.143s
+INFO [07-04|04:50:38.179] Generating DAG in progress               epoch=0 percentage=37 elapsed=4m12.659s
+INFO [07-04|04:50:44.584] Generating DAG in progress               epoch=0 percentage=38 elapsed=4m19.064s
+INFO [07-04|04:50:50.820] Generating DAG in progress               epoch=0 percentage=39 elapsed=4m25.300s
+INFO [07-04|04:50:57.097] Generating DAG in progress               epoch=0 percentage=40 elapsed=4m31.577s
+INFO [07-04|04:51:03.434] Generating DAG in progress               epoch=0 percentage=41 elapsed=4m37.914s
+INFO [07-04|04:51:09.723] Generating DAG in progress               epoch=0 percentage=42 elapsed=4m44.203s
+INFO [07-04|04:51:17.094] Generating DAG in progress               epoch=0 percentage=43 elapsed=4m51.574s
+INFO [07-04|04:51:25.133] Generating DAG in progress               epoch=0 percentage=44 elapsed=4m59.613s
+INFO [07-04|04:51:31.432] Generating DAG in progress               epoch=0 percentage=45 elapsed=5m5.912s
+INFO [07-04|04:51:37.925] Generating DAG in progress               epoch=0 percentage=46 elapsed=5m12.405s
+INFO [07-04|04:51:44.406] Generating DAG in progress               epoch=0 percentage=47 elapsed=5m18.886s
+INFO [07-04|04:51:50.586] Generating DAG in progress               epoch=0 percentage=48 elapsed=5m25.066s
+INFO [07-04|04:51:56.824] Generating DAG in progress               epoch=0 percentage=49 elapsed=5m31.304s
+INFO [07-04|04:52:02.997] Generating DAG in progress               epoch=0 percentage=50 elapsed=5m37.477s
+INFO [07-04|04:52:09.116] Generating DAG in progress               epoch=0 percentage=51 elapsed=5m43.596s
+INFO [07-04|04:52:15.521] Generating DAG in progress               epoch=0 percentage=52 elapsed=5m50.001s
+INFO [07-04|04:52:21.562] Generating DAG in progress               epoch=0 percentage=53 elapsed=5m56.042s
+INFO [07-04|04:52:29.062] Generating DAG in progress               epoch=0 percentage=54 elapsed=6m3.542s
+INFO [07-04|04:52:37.744] Generating DAG in progress               epoch=0 percentage=55 elapsed=6m12.224s
+INFO [07-04|04:52:44.186] Generating DAG in progress               epoch=0 percentage=56 elapsed=6m18.666s
+INFO [07-04|04:52:50.439] Generating DAG in progress               epoch=0 percentage=57 elapsed=6m24.919s
+INFO [07-04|04:52:56.575] Generating DAG in progress               epoch=0 percentage=58 elapsed=6m31.055s
+INFO [07-04|04:53:02.945] Generating DAG in progress               epoch=0 percentage=59 elapsed=6m37.425s
+INFO [07-04|04:53:09.532] Generating DAG in progress               epoch=0 percentage=60 elapsed=6m44.012s
+INFO [07-04|04:53:16.357] Generating DAG in progress               epoch=0 percentage=61 elapsed=6m50.837s
+INFO [07-04|04:53:23.103] Generating DAG in progress               epoch=0 percentage=62 elapsed=6m57.583s
+INFO [07-04|04:53:29.242] Generating DAG in progress               epoch=0 percentage=63 elapsed=7m3.723s
+INFO [07-04|04:53:35.610] Generating DAG in progress               epoch=0 percentage=64 elapsed=7m10.090s
+INFO [07-04|04:53:41.823] Generating DAG in progress               epoch=0 percentage=65 elapsed=7m16.303s
+INFO [07-04|04:53:48.315] Generating DAG in progress               epoch=0 percentage=66 elapsed=7m22.795s
+INFO [07-04|04:53:54.606] Generating DAG in progress               epoch=0 percentage=67 elapsed=7m29.086s
+INFO [07-04|04:54:00.948] Generating DAG in progress               epoch=0 percentage=68 elapsed=7m35.428s
+INFO [07-04|04:54:07.258] Generating DAG in progress               epoch=0 percentage=69 elapsed=7m41.738s
+INFO [07-04|04:54:15.118] Generating DAG in progress               epoch=0 percentage=70 elapsed=7m49.599s
+INFO [07-04|04:54:23.043] Generating DAG in progress               epoch=0 percentage=71 elapsed=7m57.523s
+INFO [07-04|04:54:29.261] Generating DAG in progress               epoch=0 percentage=72 elapsed=8m3.741s
+INFO [07-04|04:54:35.552] Generating DAG in progress               epoch=0 percentage=73 elapsed=8m10.032s
+INFO [07-04|04:54:42.013] Generating DAG in progress               epoch=0 percentage=74 elapsed=8m16.493s
+INFO [07-04|04:54:48.171] Generating DAG in progress               epoch=0 percentage=75 elapsed=8m22.651s
+INFO [07-04|04:54:54.421] Generating DAG in progress               epoch=0 percentage=76 elapsed=8m28.901s
+INFO [07-04|04:55:00.630] Generating DAG in progress               epoch=0 percentage=77 elapsed=8m35.110s
+INFO [07-04|04:55:06.940] Generating DAG in progress               epoch=0 percentage=78 elapsed=8m41.420s
+INFO [07-04|04:55:13.314] Generating DAG in progress               epoch=0 percentage=79 elapsed=8m47.794s
+INFO [07-04|04:55:23.053] Generating DAG in progress               epoch=0 percentage=80 elapsed=8m57.533s
+INFO [07-04|04:55:29.107] Generating DAG in progress               epoch=0 percentage=81 elapsed=9m3.587s
+INFO [07-04|04:55:36.520] Generating DAG in progress               epoch=0 percentage=82 elapsed=9m11.000s
+INFO [07-04|04:55:43.054] Generating DAG in progress               epoch=0 percentage=83 elapsed=9m17.534s
+INFO [07-04|04:55:49.353] Generating DAG in progress               epoch=0 percentage=84 elapsed=9m23.833s
+INFO [07-04|04:55:55.632] Generating DAG in progress               epoch=0 percentage=85 elapsed=9m30.112s
+INFO [07-04|04:56:01.661] Generating DAG in progress               epoch=0 percentage=86 elapsed=9m36.142s
+INFO [07-04|04:56:07.894] Generating DAG in progress               epoch=0 percentage=87 elapsed=9m42.374s
+INFO [07-04|04:56:14.259] Generating DAG in progress               epoch=0 percentage=88 elapsed=9m48.739s
+INFO [07-04|04:56:21.623] Generating DAG in progress               epoch=0 percentage=89 elapsed=9m56.103s
+INFO [07-04|04:56:34.361] Generating DAG in progress               epoch=0 percentage=90 elapsed=10m8.841s
+INFO [07-04|04:56:34.619] Generating ethash verification cache     epoch=0 percentage=42 elapsed=3.123s
+INFO [07-04|04:56:37.637] Generating ethash verification cache     epoch=0 percentage=82 elapsed=6.141s
+INFO [07-04|04:56:38.752] Generated ethash verification cache      epoch=0 elapsed=7.256s
+WARN [07-04|04:56:38.780] Fast syncing, discarded propagated block number=1 hash="a52030…7cf4fb"
+INFO [07-04|04:56:39.705] Commit new mining work                   number=1 sealhash="bd09d0…dd6f9e" uncles=0 txs=10 gas=210000 fees=4.2e-12 elapsed="739.601µs"
+INFO [07-04|04:56:41.792] Generating ethash verification cache     epoch=1 percentage=77 elapsed=3.028s
+INFO [07-04|04:56:42.555] Generated ethash verification cache      epoch=1 elapsed=3.792s
+INFO [07-04|04:56:42.753] Commit new mining work                   number=1 sealhash="e26d87…f622d8" uncles=0 txs=13 gas=273000 fees=5.46e-12 elapsed="733.781µs"
+INFO [07-04|04:56:42.940] Block synchronisation started 
+INFO [07-04|04:56:42.947] Mining aborted due to sync 
+INFO [07-04|04:56:43.053] Imported new state entries               count=2 elapsed=2.691ms     processed=2 pending=0 retry=0 duplicate=0 unexpected=0
+INFO [07-04|04:56:43.154] Imported new block headers               count=4 elapsed=100.418ms   number=4 hash="f534d0…2ab2c4"
+INFO [07-04|04:56:43.156] Imported new chain segment               blocks=3 txs=0  mgas=0.000 elapsed="543.765µs" mgasps=0.000 number=3 hash="735410…775d2a" dirty=2.67KiB
+WARN [07-04|04:56:43.186] Fast syncing, discarded propagated block number=4 hash="f534d0…2ab2c4"
+INFO [07-04|04:56:43.213] Imported new chain segment               blocks=1 txs=10 mgas=0.210 elapsed=26.707ms    mgasps=7.863 number=4 hash="f534d0…2ab2c4" dirty=3.56KiB
+INFO [07-04|04:56:43.213] Fast sync complete, auto disabling 
+INFO [07-04|04:56:43.214] Commit new mining work                   number=5 sealhash="4c0ee9…0fc2a8" uncles=0 txs=0  gas=0      fees=0        elapsed="43.181µs"
+INFO [07-04|04:56:43.214] Commit new mining work                   number=5 sealhash="2140d4…d10c2e" uncles=0 txs=6  gas=126000 fees=2.52e-12 elapsed="552.676µs"
+INFO [07-04|04:56:46.220] Commit new mining work                   number=5 sealhash="c7d894…fa173f" uncles=0 txs=10 gas=210000 fees=4.2e-12  elapsed="593.361µs"
+INFO [07-04|04:56:47.833] Generating DAG in progress               epoch=0 percentage=91 elapsed=10m22.313s
+INFO [07-04|04:56:49.195] Imported new chain segment               blocks=1 txs=20 mgas=0.420 elapsed=72.033ms    mgasps=5.831 number=5 hash="21f03e…0a709b" dirty=5.35KiB
+INFO [07-04|04:56:49.226] Commit new mining work                   number=6 sealhash="ba24d8…40dd54" uncles=0 txs=0  gas=0      fees=0        elapsed="136.874µs"
+INFO [07-04|04:56:52.231] Commit new mining work                   number=6 sealhash="311b2d…84e603" uncles=0 txs=10 gas=210000 fees=4.2e-12  elapsed="565.405µs"
+INFO [07-04|04:56:56.407] Deallocated fast sync bloom              items=44 errorrate=0.000
+INFO [07-04|04:56:56.472] Imported new chain segment               blocks=1 txs=10 mgas=0.210 elapsed=127.819ms   mgasps=1.643 number=6 hash="4f4495…787843" dirty=6.69KiB
+INFO [07-04|04:56:56.503] Commit new mining work                   number=7 sealhash="c5ea0e…fdffe8" uncles=0 txs=0  gas=0      fees=0        elapsed="134.169µs"
+INFO [07-04|04:56:56.526] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=10.294ms    mgasps=0.000 number=7 hash="dd8ea6…a3449e" dirty=7.58KiB
+INFO [07-04|04:56:56.552] Commit new mining work                   number=8 sealhash="2edfa5…0d9545" uncles=0 txs=0  gas=0      fees=0        elapsed="252.242µs"
+INFO [07-04|04:56:56.555] Commit new mining work                   number=8 sealhash="a9dbf8…194776" uncles=0 txs=1  gas=21000  fees=4.2e-13  elapsed=3.250ms
+INFO [07-04|04:56:57.731] Generating DAG in progress               epoch=0 percentage=92 elapsed=10m32.211s
+INFO [07-04|04:56:59.571] Commit new mining work                   number=8 sealhash="8e8fb0…323203" uncles=0 txs=10 gas=210000 fees=4.2e-12  elapsed=1.869ms
+INFO [07-04|04:57:02.585] Commit new mining work                   number=8 sealhash="6c6453…582cbd" uncles=0 txs=23 gas=483000 fees=9.66e-12 elapsed=1.727ms
+INFO [07-04|04:57:03.533] Imported new chain segment               blocks=1 txs=20 mgas=0.420 elapsed=58.211ms    mgasps=7.215 number=8 hash="7c31c5…1ea5de" dirty=9.38KiB
+INFO [07-04|04:57:03.533] Commit new mining work                   number=9 sealhash="b6dc8b…c6de4a" uncles=0 txs=0  gas=0      fees=0        elapsed="126.618µs"
+INFO [07-04|04:57:03.544] Commit new mining work                   number=9 sealhash="80c581…d75cb2" uncles=0 txs=10 gas=210000 fees=4.2e-12  elapsed=10.415ms
+INFO [07-04|04:57:06.539] Commit new mining work                   number=9 sealhash="5d37a9…eaad65" uncles=0 txs=20 gas=420000 fees=8.4e-12  elapsed=3.434ms
+INFO [07-04|04:57:06.851] Generating DAG in progress               epoch=0 percentage=93 elapsed=10m41.331s
+INFO [07-04|04:57:07.830] Imported new chain segment               blocks=1 txs=17 mgas=0.357 elapsed=46.260ms    mgasps=7.717 number=9 hash="f56edb…74dc98" dirty=10.72KiB
+INFO [07-04|04:57:07.875] Commit new mining work                   number=10 sealhash="c83f22…ed67ce" uncles=0 txs=0  gas=0      fees=0        elapsed="167.276µs"
+INFO [07-04|04:57:07.918] Commit new mining work                   number=10 sealhash="fa6655…3224d8" uncles=0 txs=3  gas=63000  fees=1.26e-12 elapsed=43.018ms
+INFO [07-04|04:57:10.887] Commit new mining work                   number=10 sealhash="e357d6…539bec" uncles=0 txs=13 gas=273000 fees=5.46e-12 elapsed=6.579ms
+INFO [07-04|04:57:12.240] Imported new chain segment               blocks=1 txs=13 mgas=0.273 elapsed=110.810ms   mgasps=2.464 number=10 hash="13d73f…b4e59b" dirty=12.51KiB
+INFO [07-04|04:57:12.246] Commit new mining work                   number=11 sealhash="988e7f…4dec3f" uncles=0 txs=0  gas=0      fees=0        elapsed="121.671µs"
+INFO [07-04|04:57:12.298] Commit new mining work                   number=11 sealhash="642297…9ba0f9" uncles=0 txs=6  gas=126000 fees=2.52e-12 elapsed=51.964ms
+INFO [07-04|04:57:15.247] Commit new mining work                   number=11 sealhash="fe60f7…5db1c1" uncles=0 txs=20 gas=420000 fees=8.4e-12  elapsed="954.835µs"
+INFO [07-04|04:57:17.539] Generating DAG in progress               epoch=0 percentage=94 elapsed=10m52.019s
+INFO [07-04|04:57:18.293] Commit new mining work                   number=11 sealhash="2fb84f…be567e" uncles=0 txs=23 gas=483000 fees=9.66e-12 elapsed=1.542ms
+INFO [07-04|04:57:21.335] Commit new mining work                   number=11 sealhash="5159d7…aeead0" uncles=0 txs=31 gas=651000 fees=1.302e-11 elapsed=7.460ms
+INFO [07-04|04:57:23.777] Imported new chain segment               blocks=1 txs=30 mgas=0.630 elapsed=183.536ms   mgasps=3.433 number=11 hash="4a9542…c466c0" dirty=14.31KiB
+INFO [07-04|04:57:23.787] Commit new mining work                   number=12 sealhash="e7cc03…9aa60c" uncles=0 txs=0  gas=0      fees=0         elapsed="176.097µs"
+INFO [07-04|04:57:23.789] Commit new mining work                   number=12 sealhash="b3c259…4e52a1" uncles=0 txs=20 gas=420000 fees=8.4e-12   elapsed=2.318ms
+INFO [07-04|04:57:26.791] Commit new mining work                   number=12 sealhash="431f64…797dfc" uncles=0 txs=22 gas=462000 fees=9.24e-12  elapsed=1.221ms
+INFO [07-04|04:57:29.890] Commit new mining work                   number=12 sealhash="1f66c0…772da1" uncles=0 txs=31 gas=651000 fees=1.302e-11 elapsed=95.829ms
+INFO [07-04|04:57:32.854] Commit new mining work                   number=12 sealhash="1cd18d…190318" uncles=0 txs=50 gas=1050000 fees=2.1e-11   elapsed=37.013ms
+INFO [07-04|04:57:33.470] Generating DAG in progress               epoch=0 percentage=95 elapsed=11m7.950s
+INFO [07-04|04:57:38.840] Commit new mining work                   number=12 sealhash="91b393…70a897" uncles=0 txs=60 gas=1260000 fees=2.52e-11  elapsed=12.694ms
+INFO [07-04|04:57:41.938] Commit new mining work                   number=12 sealhash="aa3068…c32496" uncles=0 txs=70 gas=1470000 fees=2.94e-11  elapsed=108.418ms
+INFO [07-04|04:57:44.846] Commit new mining work                   number=12 sealhash="313b6b…66ce5b" uncles=0 txs=80 gas=1680000 fees=3.36e-11  elapsed=3.309ms
+INFO [07-04|04:57:47.650] Generating DAG in progress               epoch=0 percentage=96 elapsed=11m22.130s
+INFO [07-04|04:57:47.903] Commit new mining work                   number=12 sealhash="807ed4…ffc214" uncles=0 txs=90 gas=1890000 fees=3.78e-11  elapsed=52.430ms
+INFO [07-04|04:57:50.929] Commit new mining work                   number=12 sealhash="66f198…b51d49" uncles=0 txs=110 gas=2310000 fees=4.62e-11  elapsed=76.356ms
+INFO [07-04|04:57:56.910] Commit new mining work                   number=12 sealhash="4656da…ff9744" uncles=0 txs=120 gas=2520000 fees=5.04e-11  elapsed=37.447ms
+INFO [07-04|04:57:58.536] Generating DAG in progress               epoch=0 percentage=97 elapsed=11m33.016s
+INFO [07-04|04:57:59.883] Commit new mining work                   number=12 sealhash="34ba72…f19c5c" uncles=0 txs=140 gas=2940000 fees=5.88e-11  elapsed=10.393ms
+INFO [07-04|04:58:02.929] Commit new mining work                   number=12 sealhash="10617d…1fe05c" uncles=0 txs=142 gas=2982000 fees=5.964e-11 elapsed=37.617ms
+INFO [07-04|04:58:06.039] Commit new mining work                   number=12 sealhash="791f9d…6d1173" uncles=0 txs=155 gas=3255000 fees=6.51e-11  elapsed=139.739ms
+INFO [07-04|04:58:08.198] Imported new chain segment               blocks=1 txs=150 mgas=3.150 elapsed=653.087ms   mgasps=4.823 number=12 hash="08eb5f…c976ac" dirty=16.10KiB
+INFO [07-04|04:58:08.284] Commit new mining work                   number=13 sealhash="a73414…1be92a" uncles=0 txs=0   gas=0       fees=0         elapsed="131.587µs"
+INFO [07-04|04:58:08.297] Commit new mining work                   number=13 sealhash="dcbc63…bb251f" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=13.173ms
+INFO [07-04|04:58:10.527] Generating DAG in progress               epoch=0 percentage=98 elapsed=11m45.007s
+INFO [07-04|04:58:11.304] Commit new mining work                   number=13 sealhash="972c63…b28834" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed="943.55µs"
+INFO [07-04|04:58:12.988] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=75.178ms    mgasps=5.587 number=13 hash="e5fab7…841ce7" dirty=17.45KiB
+INFO [07-04|04:58:12.990] Commit new mining work                   number=14 sealhash="1e8398…77ac5b" uncles=0 txs=0   gas=0       fees=0         elapsed="160.685µs"
+INFO [07-04|04:58:12.999] Commit new mining work                   number=14 sealhash="1e8398…77ac5b" uncles=0 txs=0   gas=0       fees=0         elapsed=9.353ms
+INFO [07-04|04:58:16.082] Commit new mining work                   number=14 sealhash="75213a…13aa33" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=91.705ms
+INFO [07-04|04:58:19.001] Commit new mining work                   number=14 sealhash="bcd34e…1ae5c9" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed="942.055µs"
+INFO [07-04|04:58:22.008] Commit new mining work                   number=14 sealhash="88102d…cb9ea3" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.528ms
+INFO [07-04|04:58:23.330] Generating DAG in progress               epoch=0 percentage=99 elapsed=11m57.810s
+INFO [07-04|04:58:23.333] Generated ethash verification cache      epoch=0 elapsed=11m57.813s
+INFO [07-04|04:58:25.009] Commit new mining work                   number=14 sealhash="9d16c7…9d2e9a" uncles=0 txs=38  gas=798000  fees=1.596e-11 elapsed=1.974ms
+INFO [07-04|04:58:26.430] Generating ethash verification cache     epoch=1 percentage=83 elapsed=3.017s
+INFO [07-04|04:58:27.035] Generated ethash verification cache      epoch=1 elapsed=3.622s
+INFO [07-04|04:58:28.072] Commit new mining work                   number=14 sealhash="137905…004871" uncles=0 txs=40  gas=840000  fees=1.68e-11  elapsed=52.473ms
+INFO [07-04|04:58:31.084] Commit new mining work                   number=14 sealhash="3d446b…6ebce4" uncles=0 txs=60  gas=1260000 fees=2.52e-11  elapsed=48.187ms
+INFO [07-04|04:58:32.221] Successfully sealed new block            number=14 sealhash="3d446b…6ebce4" hash="ed831d…12c3c2" elapsed=1.137s
+INFO [07-04|04:58:32.226] 🔨 mined potential block                  number=14 hash="ed831d…12c3c2"
+INFO [07-04|04:58:32.231] Commit new mining work                   number=15 sealhash="f5ddc7…3948b0" uncles=0 txs=0   gas=0       fees=0         elapsed="311.674µs"
+INFO [07-04|04:58:32.236] Commit new mining work                   number=15 sealhash="f5ddc7…3948b0" uncles=0 txs=0   gas=0       fees=0         elapsed=5.138ms
+INFO [07-04|04:58:35.263] Commit new mining work                   number=15 sealhash="0a606d…778d48" uncles=0 txs=4   gas=84000   fees=1.68e-12  elapsed="330.264µs"
+INFO [07-04|04:58:38.281] Commit new mining work                   number=15 sealhash="2958d8…1e6f31" uncles=0 txs=12  gas=252000  fees=5.04e-12  elapsed="709.81µs"
+INFO [07-04|04:58:39.558] Successfully sealed new block            number=15 sealhash="2958d8…1e6f31" hash="567c19…451b46" elapsed=1.277s
+INFO [07-04|04:58:39.604] 🔨 mined potential block                  number=15 hash="567c19…451b46"
+INFO [07-04|04:58:39.573] Commit new mining work                   number=16 sealhash="a775be…fad300" uncles=0 txs=0   gas=0       fees=0         elapsed="301.457µs"
+INFO [07-04|04:58:39.703] Commit new mining work                   number=16 sealhash="1109f6…33aab9" uncles=0 txs=8   gas=168000  fees=3.36e-12  elapsed=129.748ms
+INFO [07-04|04:58:42.582] Commit new mining work                   number=16 sealhash="c26eea…ba68b4" uncles=0 txs=18  gas=378000  fees=7.56e-12  elapsed="863.186µs"
+INFO [07-04|04:58:45.589] Commit new mining work                   number=16 sealhash="e22319…7f9fa8" uncles=0 txs=28  gas=588000  fees=1.176e-11 elapsed=1.619ms
+INFO [07-04|04:58:48.594] Commit new mining work                   number=16 sealhash="64b022…11fcf2" uncles=0 txs=38  gas=798000  fees=1.596e-11 elapsed=2.866ms
+INFO [07-04|04:58:50.614] Generating DAG in progress               epoch=1 percentage=0  elapsed=23.570s
+INFO [07-04|04:58:51.524] Imported new chain segment               blocks=1 txs=110 mgas=2.310 elapsed=227.065ms   mgasps=10.173 number=14 hash="d8da19…f8aace" dirty=22.38KiB
+INFO [07-04|04:58:51.586] Commit new mining work                   number=16 sealhash="f1a9fb…2ea0a7" uncles=1 txs=38  gas=798000  fees=1.596e-11 elapsed="460.987µs"
+INFO [07-04|04:58:51.599] Commit new mining work                   number=16 sealhash="9cc63e…1b6fbd" uncles=1 txs=48  gas=1008000 fees=2.016e-11 elapsed=2.459ms
+INFO [07-04|04:58:54.708] Commit new mining work                   number=16 sealhash="85e6e3…9af569" uncles=1 txs=58  gas=1218000 fees=2.436e-11 elapsed=105.543ms
+INFO [07-04|04:58:57.641] Commit new mining work                   number=16 sealhash="78cb2a…4f4b50" uncles=1 txs=68  gas=1428000 fees=2.856e-11 elapsed=30.152ms
+INFO [07-04|04:59:00.624] Commit new mining work                   number=16 sealhash="277928…2cb80f" uncles=1 txs=78  gas=1638000 fees=3.276e-11 elapsed=3.526ms
+INFO [07-04|04:59:02.469] Successfully sealed new block            number=16 sealhash="277928…2cb80f" hash="97486f…269db7" elapsed=1.844s
+INFO [07-04|04:59:02.526] 🔨 mined potential block                  number=16 hash="97486f…269db7"
+INFO [07-04|04:59:02.478] Commit new mining work                   number=17 sealhash="ca8589…6c0d47" uncles=0 txs=0   gas=0       fees=0         elapsed="307.495µs"
+INFO [07-04|04:59:02.739] Commit new mining work                   number=17 sealhash="8a33f6…0efcd6" uncles=0 txs=6   gas=126000  fees=2.52e-12  elapsed=261.687ms
+INFO [07-04|04:59:05.497] Commit new mining work                   number=17 sealhash="3abc63…0b3326" uncles=0 txs=15  gas=315000  fees=6.3e-12   elapsed=8.987ms
+INFO [07-04|04:59:07.185] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=168.825ms   mgasps=1.244  number=17 hash="2b3269…df4fe8" dirty=25.52KiB
+INFO [07-04|04:59:07.186] Commit new mining work                   number=18 sealhash="18660f…dc7ac3" uncles=0 txs=0   gas=0       fees=0         elapsed="145.567µs"
+INFO [07-04|04:59:07.194] Commit new mining work                   number=18 sealhash="8380b2…735504" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=7.893ms
+INFO [07-04|04:59:09.534] Successfully sealed new block            number=18 sealhash="8380b2…735504" hash="e37594…bea751" elapsed=2.340s
+INFO [07-04|04:59:09.534] 🔨 mined potential block                  number=18 hash="e37594…bea751"
+INFO [07-04|04:59:09.564] Commit new mining work                   number=19 sealhash="4ac111…cbb7ed" uncles=0 txs=0   gas=0       fees=0         elapsed="149.071µs"
+INFO [07-04|04:59:09.645] Commit new mining work                   number=19 sealhash="6e6d06…c6eeb5" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=80.957ms
+INFO [07-04|04:59:12.584] Commit new mining work                   number=19 sealhash="f62013…6b5de0" uncles=0 txs=18  gas=378000  fees=7.56e-12  elapsed="958.84µs"
+INFO [07-04|04:59:12.762] Successfully sealed new block            number=19 sealhash="f62013…6b5de0" hash="9179dd…243203" elapsed=177.672ms
+INFO [07-04|04:59:12.762] 🔨 mined potential block                  number=19 hash="9179dd…243203"
+INFO [07-04|04:59:12.789] Commit new mining work                   number=20 sealhash="1cf404…ee8700" uncles=0 txs=0   gas=0       fees=0         elapsed="164.94µs"
+INFO [07-04|04:59:12.874] Commit new mining work                   number=20 sealhash="0c7efc…8ed44b" uncles=0 txs=1   gas=21000   fees=4.2e-13   elapsed=85.825ms
+INFO [07-04|04:59:15.805] Commit new mining work                   number=20 sealhash="d873ce…e72a47" uncles=0 txs=12  gas=252000  fees=5.04e-12  elapsed="652.542µs"
+INFO [07-04|04:59:18.808] Commit new mining work                   number=20 sealhash="3055d6…85f675" uncles=0 txs=22  gas=462000  fees=9.24e-12  elapsed=1.169ms
+INFO [07-04|04:59:19.130] Generating DAG in progress               epoch=1 percentage=1  elapsed=52.085s
+INFO [07-04|04:59:21.820] Commit new mining work                   number=20 sealhash="d5cdd7…cc1649" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.386ms
+INFO [07-04|04:59:22.841] Successfully sealed new block            number=20 sealhash="d5cdd7…cc1649" hash="9080fb…37624a" elapsed=1.020s
+INFO [07-04|04:59:22.841] 🔨 mined potential block                  number=20 hash="9080fb…37624a"
+INFO [07-04|04:59:22.947] Commit new mining work                   number=21 sealhash="3218a6…5dbb1b" uncles=0 txs=0   gas=0       fees=0         elapsed=18.814ms
+INFO [07-04|04:59:23.091] Commit new mining work                   number=21 sealhash="03d905…83533e" uncles=0 txs=2   gas=42000   fees=8.4e-13   elapsed=162.524ms
+INFO [07-04|04:59:23.738] Imported new chain segment               blocks=1 txs=32  mgas=0.672 elapsed=128.425ms   mgasps=5.233  number=20 hash="8da005…593742" dirty=31.35KiB
+INFO [07-04|04:59:23.826] Commit new mining work                   number=21 sealhash="1b5457…4f00c2" uncles=1 txs=2   gas=42000   fees=8.4e-13   elapsed=87.880ms
+INFO [07-04|04:59:25.938] Commit new mining work                   number=21 sealhash="65ff07…44512c" uncles=1 txs=12  gas=252000  fees=5.04e-12  elapsed="731.833µs"
+INFO [07-04|04:59:28.960] Commit new mining work                   number=21 sealhash="683d28…6e99f6" uncles=1 txs=22  gas=462000  fees=9.24e-12  elapsed=1.074ms
+INFO [07-04|04:59:31.969] Commit new mining work                   number=21 sealhash="cd1a93…1f2c58" uncles=1 txs=32  gas=672000  fees=1.344e-11 elapsed=7.855ms
+INFO [07-04|04:59:32.738] Chain reorg detected                     number=19 hash="9179dd…243203" drop=1 dropfrom="9080fb…37624a" add=2 addfrom="21d252…14a852"
+INFO [07-04|04:59:32.798] Imported new chain segment               blocks=1 txs=30  mgas=0.630 elapsed=252.134ms   mgasps=2.499  number=21 hash="21d252…14a852" dirty=33.15KiB
+INFO [07-04|04:59:32.799] 🔗 block reached canonical chain          number=14 hash="ed831d…12c3c2"
+INFO [07-04|04:59:32.799] Commit new mining work                   number=22 sealhash="2c8548…be5a64" uncles=0 txs=0   gas=0       fees=0         elapsed="361.645µs"
+INFO [07-04|04:59:32.824] Commit new mining work                   number=22 sealhash="2c8548…be5a64" uncles=0 txs=0   gas=0       fees=0         elapsed=25.847ms
+INFO [07-04|04:59:35.816] Commit new mining work                   number=22 sealhash="0f4819…1bf803" uncles=0 txs=17  gas=357000  fees=7.14e-12  elapsed=5.040ms
+INFO [07-04|04:59:37.747] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=134.858ms   mgasps=1.557  number=22 hash="0c0076…aac220" dirty=34.04KiB
+INFO [07-04|04:59:37.748] 🔗 block reached canonical chain          number=15 hash="567c19…451b46"
+INFO [07-04|04:59:37.748] Commit new mining work                   number=23 sealhash="c29920…413e34" uncles=0 txs=0   gas=0       fees=0         elapsed="167.172µs"
+INFO [07-04|04:59:37.749] Commit new mining work                   number=23 sealhash="7ab1cc…d450ff" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.199ms
+INFO [07-04|04:59:38.334] Successfully sealed new block            number=23 sealhash="7ab1cc…d450ff" hash="3db88b…b60e42" elapsed=585.580ms
+INFO [07-04|04:59:38.334] 🔗 block reached canonical chain          number=16 hash="97486f…269db7"
+INFO [07-04|04:59:38.346] 🔨 mined potential block                  number=23 hash="3db88b…b60e42"
+INFO [07-04|04:59:38.348] Commit new mining work                   number=24 sealhash="7be357…c084a8" uncles=0 txs=0   gas=0       fees=0         elapsed="145.67µs"
+INFO [07-04|04:59:38.360] Commit new mining work                   number=24 sealhash="7be357…c084a8" uncles=0 txs=0   gas=0       fees=0         elapsed=11.916ms
+INFO [07-04|04:59:41.368] Commit new mining work                   number=24 sealhash="4b9923…99ac54" uncles=0 txs=6   gas=126000  fees=2.52e-12  elapsed="421.78µs"
+INFO [07-04|04:59:43.744] Successfully sealed new block            number=24 sealhash="4b9923…99ac54" hash="8968c6…cdfbf3" elapsed=2.375s
+INFO [07-04|04:59:43.744] 🔨 mined potential block                  number=24 hash="8968c6…cdfbf3"
+INFO [07-04|04:59:43.784] Commit new mining work                   number=25 sealhash="f0e13d…7413a7" uncles=0 txs=0   gas=0       fees=0         elapsed="145.065µs"
+INFO [07-04|04:59:43.800] Commit new mining work                   number=25 sealhash="982245…24c0ab" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=15.800ms
+INFO [07-04|04:59:46.794] Imported new chain segment               blocks=1 txs=14  mgas=0.294 elapsed=60.431ms    mgasps=4.865  number=25 hash="50b603…f46546" dirty=38.07KiB
+INFO [07-04|04:59:46.795] 🔗 block reached canonical chain          number=18 hash="e37594…bea751"
+INFO [07-04|04:59:46.798] Commit new mining work                   number=26 sealhash="cc046f…d3e0a6" uncles=0 txs=0   gas=0       fees=0         elapsed=3.186ms
+INFO [07-04|04:59:46.799] Commit new mining work                   number=26 sealhash="4d9c64…5326d2" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=4.073ms
+INFO [07-04|04:59:48.012] Generating DAG in progress               epoch=1 percentage=2  elapsed=1m20.967s
+INFO [07-04|04:59:52.855] Commit new mining work                   number=26 sealhash="9d437d…afafd2" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.174ms
+INFO [07-04|04:59:55.862] Commit new mining work                   number=26 sealhash="2d4756…cf0c1a" uncles=0 txs=34  gas=714000  fees=1.428e-11 elapsed=1.574ms
+INFO [07-04|04:59:58.890] Commit new mining work                   number=26 sealhash="11d30e…171be8" uncles=0 txs=41  gas=861000  fees=1.722e-11 elapsed=2.049ms
+INFO [07-04|05:00:00.962] Imported new chain segment               blocks=1 txs=40  mgas=0.840 elapsed=313.906ms   mgasps=2.676  number=26 hash="f3ab86…f6ccee" dirty=39.86KiB
+INFO [07-04|05:00:00.999] 🔗 block reached canonical chain          number=19 hash="9179dd…243203"
+INFO [07-04|05:00:00.999] Commit new mining work                   number=27 sealhash="ee8fcf…2c3cc3" uncles=0 txs=0   gas=0       fees=0         elapsed="290.087µs"
+INFO [07-04|05:00:01.005] Commit new mining work                   number=27 sealhash="35d020…fbf888" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=5.774ms
+INFO [07-04|05:00:03.988] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=52.691ms    mgasps=7.971  number=27 hash="76ff8c…019e47" dirty=41.21KiB
+INFO [07-04|05:00:03.989] ⑂ block became an uncle                  number=20 hash="9080fb…37624a"
+INFO [07-04|05:00:03.989] Commit new mining work                   number=28 sealhash="3c75b0…090930" uncles=0 txs=0   gas=0       fees=0         elapsed="223.897µs"
+INFO [07-04|05:00:04.051] Commit new mining work                   number=28 sealhash="aaef7c…e5415e" uncles=0 txs=6   gas=126000  fees=2.52e-12  elapsed=62.001ms
+INFO [07-04|05:00:07.051] Commit new mining work                   number=28 sealhash="d8712c…6ed601" uncles=0 txs=12  gas=252000  fees=5.04e-12  elapsed=15.182ms
+INFO [07-04|05:00:10.099] Commit new mining work                   number=28 sealhash="8c2666…a42350" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=4.314ms
+INFO [07-04|05:00:13.176] Commit new mining work                   number=28 sealhash="f4d93a…803c7f" uncles=0 txs=40  gas=840000  fees=1.68e-11  elapsed=76.851ms
+INFO [07-04|05:00:14.458] Generating DAG in progress               epoch=1 percentage=3  elapsed=1m47.413s
+INFO [07-04|05:00:19.162] Commit new mining work                   number=28 sealhash="b9e962…c9ba78" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=33.431ms
+INFO [07-04|05:00:22.282] Commit new mining work                   number=28 sealhash="27f4a7…55c9b7" uncles=0 txs=67  gas=1407000 fees=2.814e-11 elapsed=137.415ms
+INFO [07-04|05:00:25.156] Commit new mining work                   number=28 sealhash="531d8e…029ac7" uncles=0 txs=70  gas=1470000 fees=2.94e-11  elapsed=5.234ms
+INFO [07-04|05:00:26.546] Imported new chain segment               blocks=1 txs=70  mgas=1.470 elapsed=437.205ms   mgasps=3.362  number=28 hash="9500cb…aee773" dirty=43.00KiB
+INFO [07-04|05:00:26.603] Commit new mining work                   number=29 sealhash="62763e…d49b4f" uncles=0 txs=0   gas=0       fees=0         elapsed="318.12µs"
+INFO [07-04|05:00:26.608] Commit new mining work                   number=29 sealhash="32682b…6f77cc" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed=5.205ms
+INFO [07-04|05:00:29.621] Commit new mining work                   number=29 sealhash="b69ab9…f4e52d" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=6.012ms
+INFO [07-04|05:00:32.622] Commit new mining work                   number=29 sealhash="53e7b0…cf7e1c" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.349ms
+INFO [07-04|05:00:35.666] Commit new mining work                   number=29 sealhash="2e08e9…ee1b46" uncles=0 txs=33  gas=693000  fees=1.386e-11 elapsed=40.638ms
+INFO [07-04|05:00:38.374] Generating DAG in progress               epoch=1 percentage=4  elapsed=2m11.329s
+INFO [07-04|05:00:38.717] Commit new mining work                   number=29 sealhash="5043a4…2404fd" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=62.992ms
+INFO [07-04|05:00:40.846] Successfully sealed new block            number=29 sealhash="5043a4…2404fd" hash="c62dcb…a7ae77" elapsed=2.129s
+INFO [07-04|05:00:40.846] 🔨 mined potential block                  number=29 hash="c62dcb…a7ae77"
+INFO [07-04|05:00:40.865] Commit new mining work                   number=30 sealhash="0780c3…bd521b" uncles=0 txs=0   gas=0       fees=0         elapsed="228.239µs"
+INFO [07-04|05:00:40.924] Commit new mining work                   number=30 sealhash="125986…ba6639" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=58.595ms
+INFO [07-04|05:00:43.064] Successfully sealed new block            number=30 sealhash="125986…ba6639" hash="c47e77…fa3ea4" elapsed=2.193s
+INFO [07-04|05:00:43.067] 🔗 block reached canonical chain          number=23 hash="3db88b…b60e42"
+INFO [07-04|05:00:43.068] 🔨 mined potential block                  number=30 hash="c47e77…fa3ea4"
+INFO [07-04|05:00:43.080] Commit new mining work                   number=31 sealhash="5e73a0…c20a81" uncles=0 txs=0   gas=0       fees=0         elapsed="107.444µs"
+INFO [07-04|05:00:43.085] Commit new mining work                   number=31 sealhash="20b8b7…465c82" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed=5.163ms
+INFO [07-04|05:00:45.544] Imported new chain segment               blocks=1 txs=3   mgas=0.063 elapsed=154.437ms   mgasps=0.408  number=31 hash="f3d46d…96c227" dirty=47.49KiB
+INFO [07-04|05:00:45.544] 🔗 block reached canonical chain          number=24 hash="8968c6…cdfbf3"
+INFO [07-04|05:00:45.544] Commit new mining work                   number=32 sealhash="3a0454…7dde35" uncles=0 txs=0   gas=0       fees=0         elapsed="219.687µs"
+INFO [07-04|05:00:45.545] Commit new mining work                   number=32 sealhash="b64cf8…61831b" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed="750.724µs"
+INFO [07-04|05:00:48.084] Successfully sealed new block            number=32 sealhash="b64cf8…61831b" hash="c566d3…4f8dc8" elapsed=2.539s
+INFO [07-04|05:00:48.084] 🔨 mined potential block                  number=32 hash="c566d3…4f8dc8"
+INFO [07-04|05:00:48.087] Commit new mining work                   number=33 sealhash="0fdd66…105a22" uncles=0 txs=0   gas=0       fees=0         elapsed="98.183µs"
+INFO [07-04|05:00:48.138] Commit new mining work                   number=33 sealhash="a64eb7…3d15f9" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=51.225ms
+INFO [07-04|05:00:51.114] Commit new mining work                   number=33 sealhash="39936d…a8bf2b" uncles=0 txs=27  gas=567000  fees=1.134e-11 elapsed=1.269ms
+INFO [07-04|05:00:57.214] Commit new mining work                   number=33 sealhash="4cfcf6…e044e0" uncles=0 txs=37  gas=777000  fees=1.554e-11 elapsed=59.799ms
+INFO [07-04|05:01:00.178] Commit new mining work                   number=33 sealhash="90d93e…f7e716" uncles=0 txs=47  gas=987000  fees=1.974e-11 elapsed=5.032ms
+INFO [07-04|05:01:03.228] Generating DAG in progress               epoch=1 percentage=5  elapsed=2m36.183s
+INFO [07-04|05:01:03.274] Commit new mining work                   number=33 sealhash="78ef1e…db1900" uncles=0 txs=57  gas=1197000 fees=2.394e-11 elapsed=91.017ms
+INFO [07-04|05:01:03.640] Imported new chain segment               blocks=1 txs=48  mgas=1.008 elapsed=300.326ms   mgasps=3.356  number=33 hash="76f4a7…b12747" dirty=50.63KiB
+INFO [07-04|05:01:03.649] Commit new mining work                   number=34 sealhash="d8c36d…d00874" uncles=0 txs=0   gas=0       fees=0         elapsed="224.972µs"
+INFO [07-04|05:01:03.657] Commit new mining work                   number=34 sealhash="357bf6…162417" uncles=0 txs=9   gas=189000  fees=3.78e-12  elapsed=8.158ms
+INFO [07-04|05:01:06.669] Commit new mining work                   number=34 sealhash="5175ed…a63f1f" uncles=0 txs=18  gas=378000  fees=7.56e-12  elapsed=8.141ms
+INFO [07-04|05:01:09.696] Commit new mining work                   number=34 sealhash="a96ddc…e64a5d" uncles=0 txs=29  gas=609000  fees=1.218e-11 elapsed=5.379ms
+INFO [07-04|05:01:12.693] Commit new mining work                   number=34 sealhash="07c443…8f4e57" uncles=0 txs=39  gas=819000  fees=1.638e-11 elapsed=1.979ms
+INFO [07-04|05:01:15.733] Commit new mining work                   number=34 sealhash="dad62e…6391a5" uncles=0 txs=46  gas=966000  fees=1.932e-11 elapsed=15.280ms
+INFO [07-04|05:01:18.779] Commit new mining work                   number=34 sealhash="bf40fe…cf01df" uncles=0 txs=59  gas=1239000 fees=2.478e-11 elapsed=56.943ms
+INFO [07-04|05:01:18.876] Imported new chain segment               blocks=1 txs=49  mgas=1.029 elapsed=91.659ms    mgasps=11.226 number=34 hash="ec85ea…0d4286" dirty=52.42KiB
+INFO [07-04|05:01:18.879] Commit new mining work                   number=35 sealhash="d5963e…3a0ce5" uncles=0 txs=0   gas=0       fees=0         elapsed="214.455µs"
+INFO [07-04|05:01:18.881] Commit new mining work                   number=35 sealhash="a8f893…d4147f" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=2.141ms
+INFO [07-04|05:01:21.906] Commit new mining work                   number=35 sealhash="29f024…6926b9" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=23.544ms
+INFO [07-04|05:01:24.477] Successfully sealed new block            number=35 sealhash="29f024…6926b9" hash="4c8462…54c9fe" elapsed=2.570s
+INFO [07-04|05:01:24.477] 🔨 mined potential block                  number=35 hash="4c8462…54c9fe"
+INFO [07-04|05:01:24.502] Commit new mining work                   number=36 sealhash="f7cc3c…7dc970" uncles=0 txs=0   gas=0       fees=0         elapsed="137.38µs"
+INFO [07-04|05:01:27.552] Commit new mining work                   number=36 sealhash="6105a8…e05e3a" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=43.557ms
+INFO [07-04|05:01:30.393] Generating DAG in progress               epoch=1 percentage=6  elapsed=3m3.348s
+INFO [07-04|05:01:30.521] Commit new mining work                   number=36 sealhash="0e76dc…abcb66" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.040ms
+INFO [07-04|05:01:32.871] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=40.439ms    mgasps=10.386 number=36 hash="7fa7ff…f8e273" dirty=55.11KiB
+INFO [07-04|05:01:32.875] 🔗 block reached canonical chain          number=29 hash="c62dcb…a7ae77"
+INFO [07-04|05:01:32.875] Commit new mining work                   number=37 sealhash="aaa9ad…2befe4" uncles=0 txs=0   gas=0       fees=0         elapsed="280.098µs"
+INFO [07-04|05:01:32.885] Commit new mining work                   number=37 sealhash="d5c413…e71a80" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=9.704ms
+INFO [07-04|05:01:38.930] Commit new mining work                   number=37 sealhash="91a5ee…12077e" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=2.599ms
+INFO [07-04|05:01:39.882] Successfully sealed new block            number=37 sealhash="91a5ee…12077e" hash="d8fa3e…162d00" elapsed=952.000ms
+INFO [07-04|05:01:39.887] 🔗 block reached canonical chain          number=30 hash="c47e77…fa3ea4"
+INFO [07-04|05:01:39.887] 🔨 mined potential block                  number=37 hash="d8fa3e…162d00"
+INFO [07-04|05:01:39.887] Commit new mining work                   number=38 sealhash="12849a…9e3ef2" uncles=0 txs=0   gas=0       fees=0         elapsed="141.56µs"
+INFO [07-04|05:01:39.891] Commit new mining work                   number=38 sealhash="12849a…9e3ef2" uncles=0 txs=0   gas=0       fees=0         elapsed=4.003ms
+INFO [07-04|05:01:42.918] Commit new mining work                   number=38 sealhash="0b671c…80e5be" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=4.663ms
+INFO [07-04|05:01:45.923] Commit new mining work                   number=38 sealhash="3a13f9…0655cb" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.715ms
+INFO [07-04|05:01:46.823] Successfully sealed new block            number=38 sealhash="3a13f9…0655cb" hash="7f5c74…1b68b0" elapsed=899.630ms
+INFO [07-04|05:01:46.823] 🔨 mined potential block                  number=38 hash="7f5c74…1b68b0"
+INFO [07-04|05:01:46.827] Commit new mining work                   number=39 sealhash="4d44ef…02d685" uncles=0 txs=0   gas=0       fees=0         elapsed="164.315µs"
+INFO [07-04|05:01:46.852] Commit new mining work                   number=39 sealhash="4d44ef…02d685" uncles=0 txs=0   gas=0       fees=0         elapsed=24.290ms
+INFO [07-04|05:01:47.790] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=14.884ms    mgasps=0.000  number=39 hash="c540b9…4f9c58" dirty=59.14KiB
+INFO [07-04|05:01:47.829] 🔗 block reached canonical chain          number=32 hash="c566d3…4f8dc8"
+INFO [07-04|05:01:47.829] Commit new mining work                   number=40 sealhash="3c3915…b0932a" uncles=0 txs=0   gas=0       fees=0         elapsed="142.263µs"
+INFO [07-04|05:01:50.873] Commit new mining work                   number=40 sealhash="ce682b…472498" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed="371.114µs"
+INFO [07-04|05:01:53.316] Successfully sealed new block            number=40 sealhash="ce682b…472498" hash="ad53cb…22e4f9" elapsed=2.442s
+INFO [07-04|05:01:53.316] 🔨 mined potential block                  number=40 hash="ad53cb…22e4f9"
+INFO [07-04|05:01:53.322] Commit new mining work                   number=41 sealhash="1345f1…e5bc81" uncles=0 txs=0   gas=0       fees=0         elapsed="169.943µs"
+INFO [07-04|05:01:53.354] Commit new mining work                   number=41 sealhash="0b3b7d…540910" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=32.178ms
+INFO [07-04|05:01:54.430] Imported new chain segment               blocks=1 txs=7   mgas=0.147 elapsed=32.037ms    mgasps=4.588  number=41 hash="c0489e…6a4cdb" dirty=61.83KiB
+INFO [07-04|05:01:54.431] Commit new mining work                   number=42 sealhash="8f9f54…dabf8f" uncles=0 txs=0   gas=0       fees=0         elapsed="112.005µs"
+INFO [07-04|05:01:54.431] Commit new mining work                   number=42 sealhash="8f9f54…dabf8f" uncles=0 txs=0   gas=0       fees=0         elapsed="498.113µs"
+INFO [07-04|05:01:57.451] Commit new mining work                   number=42 sealhash="2e6a08…d5d4fa" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="726.858µs"
+INFO [07-04|05:02:00.479] Commit new mining work                   number=42 sealhash="dbb7ea…771033" uncles=0 txs=14  gas=294000  fees=5.88e-12  elapsed=7.680ms
+INFO [07-04|05:02:01.368] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=238.240ms   mgasps=0.881  number=42 hash="03440b…731047" dirty=62.72KiB
+INFO [07-04|05:02:01.378] 🔗 block reached canonical chain          number=35 hash="4c8462…54c9fe"
+INFO [07-04|05:02:01.379] Commit new mining work                   number=43 sealhash="04760b…03a05b" uncles=0 txs=0   gas=0       fees=0         elapsed="443.9µs"
+INFO [07-04|05:02:01.386] Commit new mining work                   number=43 sealhash="7395ac…656933" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=7.416ms
+INFO [07-04|05:02:03.428] Generating DAG in progress               epoch=1 percentage=7  elapsed=3m36.383s
+INFO [07-04|05:02:07.419] Commit new mining work                   number=43 sealhash="bf1888…ccfd41" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.212ms
+INFO [07-04|05:02:10.439] Commit new mining work                   number=43 sealhash="5ea024…a2315f" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=21.365ms
+INFO [07-04|05:02:12.846] Successfully sealed new block            number=43 sealhash="5ea024…a2315f" hash="512960…8ec80c" elapsed=2.406s
+INFO [07-04|05:02:12.846] 🔨 mined potential block                  number=43 hash="512960…8ec80c"
+INFO [07-04|05:02:12.876] Commit new mining work                   number=44 sealhash="c20629…7eaa01" uncles=0 txs=0   gas=0       fees=0         elapsed="169.267µs"
+INFO [07-04|05:02:12.884] Commit new mining work                   number=44 sealhash="90d901…e886d6" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=7.626ms
+INFO [07-04|05:02:14.857] Successfully sealed new block            number=44 sealhash="90d901…e886d6" hash="a7ec16…59f1f3" elapsed=1.978s
+INFO [07-04|05:02:14.869] 🔗 block reached canonical chain          number=37 hash="d8fa3e…162d00"
+INFO [07-04|05:02:14.869] 🔨 mined potential block                  number=44 hash="a7ec16…59f1f3"
+INFO [07-04|05:02:14.870] Commit new mining work                   number=45 sealhash="5b20a4…5ddcd4" uncles=0 txs=0   gas=0       fees=0         elapsed="122.989µs"
+INFO [07-04|05:02:14.872] Commit new mining work                   number=45 sealhash="5b20a4…5ddcd4" uncles=0 txs=0   gas=0       fees=0         elapsed=2.255ms
+INFO [07-04|05:02:17.887] Commit new mining work                   number=45 sealhash="ab97b3…7392a8" uncles=0 txs=2   gas=42000   fees=8.4e-13   elapsed="269.422µs"
+INFO [07-04|05:02:20.926] Commit new mining work                   number=45 sealhash="08d6f6…7e6f11" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="616.465µs"
+INFO [07-04|05:02:22.168] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=292.848ms   mgasps=0.717  number=45 hash="128a54…0b721f" dirty=67.20KiB
+INFO [07-04|05:02:22.219] 🔗 block reached canonical chain          number=38 hash="7f5c74…1b68b0"
+INFO [07-04|05:02:22.221] Commit new mining work                   number=46 sealhash="6fa65e…3fa11e" uncles=0 txs=0   gas=0       fees=0         elapsed=1.724ms
+INFO [07-04|05:02:25.224] Commit new mining work                   number=46 sealhash="109efb…f7fb6f" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.054ms
+INFO [07-04|05:02:28.231] Commit new mining work                   number=46 sealhash="0e82b5…e1c2b9" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.232ms
+INFO [07-04|05:02:28.890] Successfully sealed new block            number=46 sealhash="0e82b5…e1c2b9" hash="23c572…07b7ce" elapsed=659.584ms
+INFO [07-04|05:02:28.894] 🔨 mined potential block                  number=46 hash="23c572…07b7ce"
+INFO [07-04|05:02:28.895] Commit new mining work                   number=47 sealhash="65e522…8cdf5e" uncles=0 txs=0   gas=0       fees=0         elapsed="177.622µs"
+INFO [07-04|05:02:28.898] Commit new mining work                   number=47 sealhash="65e522…8cdf5e" uncles=0 txs=0   gas=0       fees=0         elapsed=2.710ms
+INFO [07-04|05:02:31.824] Generating DAG in progress               epoch=1 percentage=8  elapsed=4m4.779s
+INFO [07-04|05:02:31.932] Commit new mining work                   number=47 sealhash="13c7c1…314754" uncles=0 txs=4   gas=84000   fees=1.68e-12  elapsed="313.226µs"
+INFO [07-04|05:02:35.013] Commit new mining work                   number=47 sealhash="e11c7d…17c2fb" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.601ms
+INFO [07-04|05:02:38.042] Commit new mining work                   number=47 sealhash="3e62ea…cf0dce" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=4.215ms
+INFO [07-04|05:02:41.054] Commit new mining work                   number=47 sealhash="4ef733…5b3532" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.412ms
+INFO [07-04|05:02:44.068] Commit new mining work                   number=47 sealhash="0f16c4…d694c2" uncles=0 txs=40  gas=840000  fees=1.68e-11  elapsed=7.252ms
+INFO [07-04|05:02:46.612] Imported new chain segment               blocks=1 txs=30  mgas=0.630 elapsed=63.431ms    mgasps=9.932  number=47 hash="bc5eca…8e7ed8" dirty=70.34KiB
+INFO [07-04|05:02:46.624] 🔗 block reached canonical chain          number=40 hash="ad53cb…22e4f9"
+INFO [07-04|05:02:46.624] Commit new mining work                   number=48 sealhash="418c7f…dfd76f" uncles=0 txs=0   gas=0       fees=0         elapsed="263.966µs"
+INFO [07-04|05:02:46.636] Commit new mining work                   number=48 sealhash="4af2ba…eba244" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=11.865ms
+INFO [07-04|05:02:47.554] Successfully sealed new block            number=48 sealhash="4af2ba…eba244" hash="a2155e…0c656a" elapsed=919.297ms
+INFO [07-04|05:02:47.554] 🔨 mined potential block                  number=48 hash="a2155e…0c656a"
+INFO [07-04|05:02:47.591] Commit new mining work                   number=49 sealhash="f0e6d2…4d79a1" uncles=0 txs=0   gas=0       fees=0         elapsed="159.927µs"
+INFO [07-04|05:02:47.658] Commit new mining work                   number=49 sealhash="f0e6d2…4d79a1" uncles=0 txs=0   gas=0       fees=0         elapsed=67.484ms
+INFO [07-04|05:02:50.592] Commit new mining work                   number=49 sealhash="0c0c62…fe77c3" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="700.832µs"
+INFO [07-04|05:02:52.415] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=82.945ms    mgasps=2.532  number=49 hash="4ecadd…d156bf" dirty=73.03KiB
+INFO [07-04|05:02:52.416] Commit new mining work                   number=50 sealhash="56f8eb…4986fd" uncles=0 txs=0   gas=0       fees=0         elapsed="106.474µs"
+INFO [07-04|05:02:52.419] Commit new mining work                   number=50 sealhash="56f8eb…4986fd" uncles=0 txs=0   gas=0       fees=0         elapsed=3.381ms
+INFO [07-04|05:02:53.504] Generating DAG in progress               epoch=1 percentage=9  elapsed=4m26.460s
+INFO [07-04|05:02:55.070] Successfully sealed new block            number=50 sealhash="56f8eb…4986fd" hash="117752…1274f8" elapsed=2.654s
+INFO [07-04|05:02:55.070] 🔗 block reached canonical chain          number=43 hash="512960…8ec80c"
+INFO [07-04|05:02:55.070] 🔨 mined potential block                  number=50 hash="117752…1274f8"
+INFO [07-04|05:02:55.072] Commit new mining work                   number=51 sealhash="b1b4ea…17da83" uncles=0 txs=0   gas=0       fees=0         elapsed="150.535µs"
+INFO [07-04|05:02:55.110] Commit new mining work                   number=51 sealhash="209beb…fad00c" uncles=0 txs=8   gas=168000  fees=3.36e-12  elapsed=38.547ms
+INFO [07-04|05:02:58.101] Commit new mining work                   number=51 sealhash="1dad00…51560a" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed="929.374µs"
+INFO [07-04|05:03:01.104] Commit new mining work                   number=51 sealhash="1ab965…19b34b" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.542ms
+INFO [07-04|05:03:04.226] Commit new mining work                   number=51 sealhash="b5c7bc…de6a6d" uncles=0 txs=35  gas=735000  fees=1.47e-11  elapsed=6.846ms
+INFO [07-04|05:03:05.697] Successfully sealed new block            number=51 sealhash="b5c7bc…de6a6d" hash="54560f…589b89" elapsed=1.471s
+INFO [07-04|05:03:05.697] 🔗 block reached canonical chain          number=44 hash="a7ec16…59f1f3"
+INFO [07-04|05:03:05.697] 🔨 mined potential block                  number=51 hash="54560f…589b89"
+INFO [07-04|05:03:05.704] Commit new mining work                   number=52 sealhash="c66b5a…799475" uncles=0 txs=0   gas=0       fees=0         elapsed="756.999µs"
+INFO [07-04|05:03:05.715] Commit new mining work                   number=52 sealhash="0342c1…a25371" uncles=0 txs=5   gas=105000  fees=2.1e-12   elapsed=12.116ms
+INFO [07-04|05:03:08.201] Imported new chain segment               blocks=1 txs=5   mgas=0.105 elapsed=37.026ms    mgasps=2.836  number=52 hash="77ecbe…db5feb" dirty=77.06KiB
+INFO [07-04|05:03:08.201] Commit new mining work                   number=53 sealhash="8716bf…39ef70" uncles=0 txs=0   gas=0       fees=0         elapsed="103.941µs"
+INFO [07-04|05:03:08.289] Commit new mining work                   number=53 sealhash="3f5366…32d2cc" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=87.203ms
+INFO [07-04|05:03:11.203] Commit new mining work                   number=53 sealhash="88eb49…678a33" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.016ms
+INFO [07-04|05:03:14.204] Commit new mining work                   number=53 sealhash="9641c0…e666e9" uncles=0 txs=28  gas=588000  fees=1.176e-11 elapsed=1.381ms
+INFO [07-04|05:03:15.793] Generating DAG in progress               epoch=1 percentage=10 elapsed=4m48.748s
+INFO [07-04|05:03:17.239] Commit new mining work                   number=53 sealhash="bc0422…b6b160" uncles=0 txs=40  gas=840000  fees=1.68e-11  elapsed=9.330ms
+INFO [07-04|05:03:19.621] Imported new chain segment               blocks=1 txs=34  mgas=0.714 elapsed=326.763ms   mgasps=2.185  number=53 hash="5af9de…04386f" dirty=78.86KiB
+INFO [07-04|05:03:19.660] 🔗 block reached canonical chain          number=46 hash="23c572…07b7ce"
+INFO [07-04|05:03:19.668] Commit new mining work                   number=54 sealhash="5f8363…7920c6" uncles=0 txs=0   gas=0       fees=0         elapsed=7.880ms
+INFO [07-04|05:03:19.670] Commit new mining work                   number=54 sealhash="39476c…7faa00" uncles=0 txs=16  gas=336000  fees=6.72e-12  elapsed=9.939ms
+INFO [07-04|05:03:21.580] Imported new chain segment               blocks=1 txs=6   mgas=0.126 elapsed=75.925ms    mgasps=1.660  number=54 hash="b88bd2…2c04f7" dirty=79.75KiB
+INFO [07-04|05:03:21.589] Commit new mining work                   number=55 sealhash="420cb3…9fb3b6" uncles=0 txs=0   gas=0       fees=0         elapsed="133.978µs"
+INFO [07-04|05:03:21.590] Successfully sealed new block            number=54 sealhash="39476c…7faa00" hash="f71514…91c300" elapsed=1.920s
+INFO [07-04|05:03:21.590] 🔨 mined potential block                  number=54 hash="f71514…91c300"
+INFO [07-04|05:03:21.593] Commit new mining work                   number=55 sealhash="c60a3e…b0c40a" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=4.617ms
+INFO [07-04|05:03:21.712] Commit new mining work                   number=55 sealhash="e1f79a…bf6076" uncles=1 txs=10  gas=210000  fees=4.2e-12   elapsed=118.770ms
+INFO [07-04|05:03:24.611] Commit new mining work                   number=55 sealhash="e51098…4a40a6" uncles=1 txs=17  gas=357000  fees=7.14e-12  elapsed=5.601ms
+INFO [07-04|05:03:25.554] Successfully sealed new block            number=55 sealhash="e51098…4a40a6" hash="4bcd14…7c1417" elapsed=942.787ms
+INFO [07-04|05:03:25.554] 🔗 block reached canonical chain          number=48 hash="a2155e…0c656a"
+INFO [07-04|05:03:25.554] 🔨 mined potential block                  number=55 hash="4bcd14…7c1417"
+INFO [07-04|05:03:25.558] Commit new mining work                   number=56 sealhash="cc600c…6824aa" uncles=0 txs=0   gas=0       fees=0         elapsed="244.044µs"
+INFO [07-04|05:03:25.609] Commit new mining work                   number=56 sealhash="5a80a0…4190b7" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed=51.263ms
+INFO [07-04|05:03:28.581] Commit new mining work                   number=56 sealhash="d0b9bb…91e51e" uncles=0 txs=13  gas=273000  fees=5.46e-12  elapsed="739.293µs"
+INFO [07-04|05:03:30.835] Successfully sealed new block            number=56 sealhash="d0b9bb…91e51e" hash="8a25cb…2dde7a" elapsed=2.253s
+INFO [07-04|05:03:30.840] 🔨 mined potential block                  number=56 hash="8a25cb…2dde7a"
+INFO [07-04|05:03:30.845] Commit new mining work                   number=57 sealhash="6793aa…94652d" uncles=0 txs=0   gas=0       fees=0         elapsed="151.368µs"
+INFO [07-04|05:03:30.848] Commit new mining work                   number=57 sealhash="6793aa…94652d" uncles=0 txs=0   gas=0       fees=0         elapsed=2.975ms
+INFO [07-04|05:03:33.857] Commit new mining work                   number=57 sealhash="273221…12acec" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.656ms
+INFO [07-04|05:03:34.381] Successfully sealed new block            number=57 sealhash="273221…12acec" hash="1580e2…bfde6d" elapsed=523.213ms
+INFO [07-04|05:03:34.381] 🔗 block reached canonical chain          number=50 hash="117752…1274f8"
+INFO [07-04|05:03:34.381] 🔨 mined potential block                  number=57 hash="1580e2…bfde6d"
+INFO [07-04|05:03:34.389] Commit new mining work                   number=58 sealhash="c0209d…58782b" uncles=0 txs=0   gas=0       fees=0         elapsed="162.11µs"
+INFO [07-04|05:03:34.390] Commit new mining work                   number=58 sealhash="c0209d…58782b" uncles=0 txs=0   gas=0       fees=0         elapsed=1.151ms
+INFO [07-04|05:03:37.397] Commit new mining work                   number=58 sealhash="8d3641…af1c59" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="751.901µs"
+INFO [07-04|05:03:40.437] Commit new mining work                   number=58 sealhash="6644ca…dde233" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=6.504ms
+INFO [07-04|05:03:42.057] Imported new chain segment               blocks=1 txs=12  mgas=0.252 elapsed=39.944ms    mgasps=6.309  number=58 hash="310fe0…38f140" dirty=86.47KiB
+INFO [07-04|05:03:42.058] 🔗 block reached canonical chain          number=51 hash="54560f…589b89"
+INFO [07-04|05:03:42.059] Commit new mining work                   number=59 sealhash="64a03d…cb09dc" uncles=0 txs=0   gas=0       fees=0         elapsed="378.765µs"
+INFO [07-04|05:03:42.064] Commit new mining work                   number=59 sealhash="36840e…61af2e" uncles=0 txs=18  gas=378000  fees=7.56e-12  elapsed=6.130ms
+INFO [07-04|05:03:45.063] Commit new mining work                   number=59 sealhash="e7fbd0…b6287b" uncles=0 txs=28  gas=588000  fees=1.176e-11 elapsed=1.493ms
+INFO [07-04|05:03:45.166] Imported new chain segment               blocks=1 txs=27  mgas=0.567 elapsed=195.661ms   mgasps=2.898  number=59 hash="8600dc…b712fb" dirty=88.26KiB
+INFO [07-04|05:03:45.261] Commit new mining work                   number=60 sealhash="6d844f…17a73c" uncles=0 txs=0   gas=0       fees=0         elapsed=1.910ms
+INFO [07-04|05:03:45.298] Commit new mining work                   number=60 sealhash="188081…7de799" uncles=0 txs=1   gas=21000   fees=4.2e-13   elapsed=38.927ms
+INFO [07-04|05:03:45.856] Generating DAG in progress               epoch=1 percentage=11 elapsed=5m18.811s
+INFO [07-04|05:03:47.753] Imported new chain segment               blocks=1 txs=1   mgas=0.021 elapsed=149.592ms   mgasps=0.140  number=60 hash="facc97…a82414" dirty=89.61KiB
+INFO [07-04|05:03:47.802] Commit new mining work                   number=61 sealhash="d14e2d…d11eca" uncles=0 txs=0   gas=0       fees=0         elapsed="130.756µs"
+INFO [07-04|05:03:47.803] Commit new mining work                   number=61 sealhash="20aa1e…ae1f84" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="869.06µs"
+INFO [07-04|05:03:50.072] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=77.056ms    mgasps=2.725  number=61 hash="d3108b…2aab83" dirty=90.50KiB
+INFO [07-04|05:03:50.074] ⑂ block became an uncle                  number=54 hash="f71514…91c300"
+INFO [07-04|05:03:50.074] Commit new mining work                   number=62 sealhash="5e779e…1db073" uncles=0 txs=0   gas=0       fees=0         elapsed="220.912µs"
+INFO [07-04|05:03:50.080] Commit new mining work                   number=62 sealhash="d189a1…f03130" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=6.385ms
+INFO [07-04|05:03:53.148] Commit new mining work                   number=62 sealhash="0d0061…7ff258" uncles=0 txs=14  gas=294000  fees=5.88e-12  elapsed=54.451ms
+INFO [07-04|05:03:54.458] Successfully sealed new block            number=62 sealhash="0d0061…7ff258" hash="0d5ae4…05ae04" elapsed=1.309s
+INFO [07-04|05:03:54.458] 🔗 block reached canonical chain          number=55 hash="4bcd14…7c1417"
+INFO [07-04|05:03:54.458] 🔨 mined potential block                  number=62 hash="0d5ae4…05ae04"
+INFO [07-04|05:03:54.501] Commit new mining work                   number=63 sealhash="0c2dd0…e8dd6f" uncles=0 txs=0   gas=0       fees=0         elapsed=42.181ms
+INFO [07-04|05:03:54.502] Commit new mining work                   number=63 sealhash="e3949a…72d7d9" uncles=0 txs=6   gas=126000  fees=2.52e-12  elapsed=43.336ms
+INFO [07-04|05:03:57.467] Commit new mining work                   number=63 sealhash="a520f6…a0871f" uncles=0 txs=16  gas=336000  fees=6.72e-12  elapsed="790.987µs"
+INFO [07-04|05:04:00.475] Commit new mining work                   number=63 sealhash="c5692d…ca8325" uncles=0 txs=26  gas=546000  fees=1.092e-11 elapsed=1.262ms
+INFO [07-04|05:04:01.032] Imported new chain segment               blocks=1 txs=16  mgas=0.336 elapsed=88.918ms    mgasps=3.779  number=63 hash="75153a…ae8521" dirty=93.64KiB
+INFO [07-04|05:04:01.033] 🔗 block reached canonical chain          number=56 hash="8a25cb…2dde7a"
+INFO [07-04|05:04:01.034] Commit new mining work                   number=64 sealhash="5f6aa4…3dfab4" uncles=0 txs=0   gas=0       fees=0         elapsed="164.576µs"
+INFO [07-04|05:04:01.049] Commit new mining work                   number=64 sealhash="ea6629…48df61" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=16.096ms
+INFO [07-04|05:04:03.750] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=155.096ms   mgasps=1.354  number=64 hash="4fbd17…de46ce" dirty=94.98KiB
+INFO [07-04|05:04:03.831] 🔗 block reached canonical chain          number=57 hash="1580e2…bfde6d"
+INFO [07-04|05:04:03.876] Commit new mining work                   number=65 sealhash="e11e13…f0b0a7" uncles=0 txs=0   gas=0       fees=0         elapsed=45.575ms
+INFO [07-04|05:04:03.879] Commit new mining work                   number=65 sealhash="21b229…09a00f" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=48.602ms
+INFO [07-04|05:04:06.848] Commit new mining work                   number=65 sealhash="faf6bd…69b9c4" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.094ms
+INFO [07-04|05:04:08.838] Imported new chain segment               blocks=1 txs=19  mgas=0.399 elapsed=211.895ms   mgasps=1.883  number=65 hash="77c756…950759" dirty=96.33KiB
+INFO [07-04|05:04:08.864] Commit new mining work                   number=66 sealhash="fa38eb…4c628c" uncles=0 txs=0   gas=0       fees=0         elapsed="189.442µs"
+INFO [07-04|05:04:08.865] Commit new mining work                   number=66 sealhash="7d46b0…75fbc9" uncles=0 txs=11  gas=231000  fees=4.62e-12  elapsed=1.588ms
+INFO [07-04|05:04:13.145] Generating DAG in progress               epoch=1 percentage=12 elapsed=5m46.100s
+INFO [07-04|05:04:13.695] Imported new chain segment               blocks=1 txs=11  mgas=0.231 elapsed=96.575ms    mgasps=2.392  number=66 hash="f7ec7c…d84d98" dirty=97.67KiB
+INFO [07-04|05:04:13.705] Commit new mining work                   number=67 sealhash="df5443…f24dcb" uncles=0 txs=0   gas=0       fees=0         elapsed="138.853µs"
+INFO [07-04|05:04:13.707] Commit new mining work                   number=67 sealhash="0e9ab7…089f80" uncles=0 txs=9   gas=189000  fees=3.78e-12  elapsed=1.774ms
+INFO [07-04|05:04:16.711] Commit new mining work                   number=67 sealhash="d6301d…7ae582" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=4.029ms
+INFO [07-04|05:04:19.742] Commit new mining work                   number=67 sealhash="043735…00a2ff" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.460ms
+INFO [07-04|05:04:22.815] Commit new mining work                   number=67 sealhash="242c0a…86c6cf" uncles=0 txs=38  gas=798000  fees=1.596e-11 elapsed=59.298ms
+INFO [07-04|05:04:25.799] Commit new mining work                   number=67 sealhash="41675a…4caed6" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=2.322ms
+INFO [07-04|05:04:28.890] Commit new mining work                   number=67 sealhash="8fe0bc…478d99" uncles=0 txs=60  gas=1260000 fees=2.52e-11  elapsed=57.043ms
+INFO [07-04|05:04:29.990] Imported new chain segment               blocks=1 txs=60  mgas=1.260 elapsed=115.845ms   mgasps=10.877 number=67 hash="31919c…9fb449" dirty=99.47KiB
+INFO [07-04|05:04:30.056] Commit new mining work                   number=68 sealhash="a7b7a4…893033" uncles=0 txs=0   gas=0       fees=0         elapsed="299.203µs"
+INFO [07-04|05:04:30.063] Commit new mining work                   number=68 sealhash="a7b7a4…893033" uncles=0 txs=0   gas=0       fees=0         elapsed=8.182ms
+INFO [07-04|05:04:31.886] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=347.445ms   mgasps=0.000  number=68 hash="7a2a25…09817d" dirty=100.36KiB
+INFO [07-04|05:04:31.886] Commit new mining work                   number=69 sealhash="b2c26e…69f29a" uncles=0 txs=0   gas=0       fees=0         elapsed="77.834µs"
+INFO [07-04|05:04:31.911] Commit new mining work                   number=69 sealhash="c5715e…140436" uncles=0 txs=9   gas=189000  fees=3.78e-12  elapsed=25.011ms
+INFO [07-04|05:04:34.909] Commit new mining work                   number=69 sealhash="7610b6…ea702a" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=2.022ms
+INFO [07-04|05:04:36.522] Imported new chain segment               blocks=1 txs=19  mgas=0.399 elapsed=98.795ms    mgasps=4.039  number=69 hash="ab653b…3b23d2" dirty=101.70KiB
+INFO [07-04|05:04:36.541] 🔗 block reached canonical chain          number=62 hash="0d5ae4…05ae04"
+INFO [07-04|05:04:36.542] Commit new mining work                   number=70 sealhash="814a2e…b2747c" uncles=0 txs=0   gas=0       fees=0         elapsed="234.039µs"
+INFO [07-04|05:04:36.550] Commit new mining work                   number=70 sealhash="c0d97e…b18e0e" uncles=0 txs=11  gas=231000  fees=4.62e-12  elapsed=8.740ms
+INFO [07-04|05:04:38.076] Imported new chain segment               blocks=1 txs=7   mgas=0.147 elapsed=18.850ms    mgasps=7.798  number=70 hash="4912e9…782edd" dirty=103.05KiB
+INFO [07-04|05:04:38.077] Commit new mining work                   number=71 sealhash="42e7ae…f41ccf" uncles=0 txs=0   gas=0       fees=0         elapsed="104.407µs"
+INFO [07-04|05:04:38.199] Commit new mining work                   number=71 sealhash="767891…4de3ee" uncles=0 txs=4   gas=84000   fees=1.68e-12  elapsed=122.443ms
+INFO [07-04|05:04:41.159] Commit new mining work                   number=71 sealhash="ff6fb1…921ecd" uncles=0 txs=14  gas=294000  fees=5.88e-12  elapsed=56.305ms
+INFO [07-04|05:04:41.368] Generating DAG in progress               epoch=1 percentage=13 elapsed=6m14.323s
+INFO [07-04|05:04:44.112] Commit new mining work                   number=71 sealhash="2c789d…b4ee4f" uncles=0 txs=24  gas=504000  fees=1.008e-11 elapsed=1.299ms
+INFO [07-04|05:04:47.139] Commit new mining work                   number=71 sealhash="dd6ae9…ecfac0" uncles=0 txs=34  gas=714000  fees=1.428e-11 elapsed=1.668ms
+INFO [07-04|05:04:50.143] Commit new mining work                   number=71 sealhash="b5e70e…47afb3" uncles=0 txs=44  gas=924000  fees=1.848e-11 elapsed=2.186ms
+INFO [07-04|05:04:52.441] Imported new chain segment               blocks=1 txs=44  mgas=0.924 elapsed=81.372ms    mgasps=11.355 number=71 hash="d3bb9e…acc505" dirty=104.84KiB
+INFO [07-04|05:04:52.562] Commit new mining work                   number=72 sealhash="855805…c25abd" uncles=0 txs=0   gas=0       fees=0         elapsed=2.756ms
+INFO [07-04|05:04:52.588] Commit new mining work                   number=72 sealhash="59e803…51391b" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=28.657ms
+INFO [07-04|05:04:52.781] Successfully sealed new block            number=72 sealhash="59e803…51391b" hash="c934d4…b4a8aa" elapsed=210.721ms
+INFO [07-04|05:04:52.781] 🔨 mined potential block                  number=72 hash="c934d4…b4a8aa"
+INFO [07-04|05:04:52.795] Commit new mining work                   number=73 sealhash="111f2d…2514fb" uncles=0 txs=0   gas=0       fees=0         elapsed="183.155µs"
+INFO [07-04|05:04:52.852] Commit new mining work                   number=73 sealhash="111f2d…2514fb" uncles=0 txs=0   gas=0       fees=0         elapsed=58.088ms
+INFO [07-04|05:04:54.357] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=211.928ms   mgasps=0.991  number=72 hash="1c68be…8f9b78" dirty=105.73KiB
+INFO [07-04|05:04:54.360] Commit new mining work                   number=73 sealhash="903ece…cd8e43" uncles=1 txs=0   gas=0       fees=0         elapsed="70.326µs"
+INFO [07-04|05:04:55.183] Successfully sealed new block            number=73 sealhash="903ece…cd8e43" hash="009dd2…4c73de" elapsed=822.918ms
+INFO [07-04|05:04:55.183] 🔨 mined potential block                  number=73 hash="009dd2…4c73de"
+INFO [07-04|05:04:55.184] Commit new mining work                   number=74 sealhash="21cd0c…7ecf02" uncles=0 txs=0   gas=0       fees=0         elapsed="158.613µs"
+INFO [07-04|05:04:55.213] Commit new mining work                   number=74 sealhash="901563…5dcaa9" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=29.136ms
+INFO [07-04|05:04:58.189] Commit new mining work                   number=74 sealhash="eecc0a…ccc9ff" uncles=0 txs=11  gas=231000  fees=4.62e-12  elapsed="768.222µs"
+INFO [07-04|05:04:59.561] Imported new chain segment               blocks=1 txs=15  mgas=0.315 elapsed=42.541ms    mgasps=7.405  number=74 hash="46ccad…7329a0" dirty=108.42KiB
+INFO [07-04|05:04:59.624] Commit new mining work                   number=75 sealhash="e4ad79…d5e967" uncles=0 txs=0   gas=0       fees=0         elapsed=62.991ms
+INFO [07-04|05:04:59.648] Commit new mining work                   number=75 sealhash="0b838c…e01f1e" uncles=0 txs=5   gas=105000  fees=2.1e-12   elapsed=86.757ms
+INFO [07-04|05:05:02.608] Commit new mining work                   number=75 sealhash="267261…524ab9" uncles=0 txs=15  gas=315000  fees=6.3e-12   elapsed=1.046ms
+INFO [07-04|05:05:04.103] Successfully sealed new block            number=75 sealhash="267261…524ab9" hash="255a7e…d1574b" elapsed=1.495s
+INFO [07-04|05:05:04.103] 🔨 mined potential block                  number=75 hash="255a7e…d1574b"
+INFO [07-04|05:05:04.116] Commit new mining work                   number=76 sealhash="775789…e9c6bf" uncles=0 txs=0   gas=0       fees=0         elapsed="161.317µs"
+INFO [07-04|05:05:06.645] Generating DAG in progress               epoch=1 percentage=14 elapsed=6m39.600s
+INFO [07-04|05:05:07.138] Commit new mining work                   number=76 sealhash="468bb4…44c38a" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="740.311µs"
+INFO [07-04|05:05:08.621] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=110.895ms   mgasps=0.000  number=76 hash="855768…3c473b" dirty=110.66KiB
+INFO [07-04|05:05:08.622] Commit new mining work                   number=77 sealhash="7538d5…4f1854" uncles=0 txs=0   gas=0       fees=0         elapsed="131.836µs"
+INFO [07-04|05:05:08.623] Commit new mining work                   number=77 sealhash="39dc51…573c85" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.100ms
+INFO [07-04|05:05:11.624] Commit new mining work                   number=77 sealhash="a8409b…746110" uncles=0 txs=16  gas=336000  fees=6.72e-12  elapsed=1.660ms
+INFO [07-04|05:05:14.678] Commit new mining work                   number=77 sealhash="4e07f0…de80b9" uncles=0 txs=22  gas=462000  fees=9.24e-12  elapsed=1.169ms
+INFO [07-04|05:05:16.181] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=40.502ms    mgasps=10.370 number=77 hash="e03a76…e8abad" dirty=112.45KiB
+INFO [07-04|05:05:16.182] Commit new mining work                   number=78 sealhash="86ae92…14170a" uncles=0 txs=0   gas=0       fees=0         elapsed="155.1µs"
+INFO [07-04|05:05:16.199] Commit new mining work                   number=78 sealhash="256c15…bbd5b8" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=16.376ms
+INFO [07-04|05:05:16.540] Successfully sealed new block            number=78 sealhash="256c15…bbd5b8" hash="99d774…d1633a" elapsed=354.171ms
+INFO [07-04|05:05:16.540] 🔨 mined potential block                  number=78 hash="99d774…d1633a"
+INFO [07-04|05:05:16.541] Commit new mining work                   number=79 sealhash="5bcaf0…00d8c5" uncles=0 txs=0   gas=0       fees=0         elapsed="128.676µs"
+INFO [07-04|05:05:16.624] Commit new mining work                   number=79 sealhash="5bcaf0…00d8c5" uncles=0 txs=0   gas=0       fees=0         elapsed=82.861ms
+INFO [07-04|05:05:19.698] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=28.466ms    mgasps=0.000  number=79 hash="58b232…636e06" dirty=114.24KiB
+INFO [07-04|05:05:19.698] 🔗 block reached canonical chain          number=72 hash="c934d4…b4a8aa"
+INFO [07-04|05:05:19.698] Commit new mining work                   number=80 sealhash="fe002f…1a7b17" uncles=0 txs=0   gas=0       fees=0         elapsed="109.192µs"
+INFO [07-04|05:05:20.801] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=165.609ms   mgasps=0.000  number=79 hash="555b71…e4dd96" dirty=114.24KiB
+INFO [07-04|05:05:20.856] Commit new mining work                   number=80 sealhash="b60f37…3599de" uncles=1 txs=0   gas=0       fees=0         elapsed="85.271µs"
+INFO [07-04|05:05:20.945] Successfully sealed new block            number=80 sealhash="b60f37…3599de" hash="caf72a…699580" elapsed=89.417ms
+INFO [07-04|05:05:20.945] 🔗 block reached canonical chain          number=73 hash="009dd2…4c73de"
+INFO [07-04|05:05:20.945] 🔨 mined potential block                  number=80 hash="caf72a…699580"
+INFO [07-04|05:05:20.946] Commit new mining work                   number=81 sealhash="37453f…e3a19c" uncles=0 txs=0   gas=0       fees=0         elapsed="110.293µs"
+INFO [07-04|05:05:20.983] Commit new mining work                   number=81 sealhash="561690…a470a9" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=37.545ms
+INFO [07-04|05:05:26.579] Imported new chain segment               blocks=1 txs=13  mgas=0.273 elapsed=43.662ms    mgasps=6.253  number=81 hash="46fa20…b4712e" dirty=116.92KiB
+INFO [07-04|05:05:26.647] Commit new mining work                   number=82 sealhash="9c0fd3…902174" uncles=0 txs=0   gas=0       fees=0         elapsed="175.501µs"
+INFO [07-04|05:05:26.649] Commit new mining work                   number=82 sealhash="cf817b…bdfc07" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=2.728ms
+INFO [07-04|05:05:29.348] Generating DAG in progress               epoch=1 percentage=15 elapsed=7m2.303s
+INFO [07-04|05:05:29.657] Commit new mining work                   number=82 sealhash="feef57…58d1e6" uncles=0 txs=17  gas=357000  fees=7.14e-12  elapsed="831.66µs"
+INFO [07-04|05:05:32.106] Imported new chain segment               blocks=1 txs=17  mgas=0.357 elapsed=75.006ms    mgasps=4.760  number=82 hash="fdbc17…228c2d" dirty=118.27KiB
+INFO [07-04|05:05:32.108] 🔗 block reached canonical chain          number=75 hash="255a7e…d1574b"
+INFO [07-04|05:05:32.108] Commit new mining work                   number=83 sealhash="1ce56e…e87979" uncles=0 txs=0   gas=0       fees=0         elapsed="442.815µs"
+INFO [07-04|05:05:32.110] Commit new mining work                   number=83 sealhash="d70869…e47735" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=2.571ms
+INFO [07-04|05:05:32.808] Imported new chain segment               blocks=1 txs=17  mgas=0.357 elapsed=21.764ms    mgasps=16.403 number=82 hash="d8d2df…1ed740" dirty=118.27KiB
+INFO [07-04|05:05:32.819] Commit new mining work                   number=83 sealhash="a790fd…b5a1de" uncles=1 txs=10  gas=210000  fees=4.2e-12   elapsed="179.184µs"
+INFO [07-04|05:05:35.126] Commit new mining work                   number=83 sealhash="090d08…d96f4b" uncles=1 txs=13  gas=273000  fees=5.46e-12  elapsed="768.495µs"
+INFO [07-04|05:05:38.137] Commit new mining work                   number=83 sealhash="e022f6…64f2ac" uncles=1 txs=20  gas=420000  fees=8.4e-12   elapsed=1.223ms
+INFO [07-04|05:05:40.427] Successfully sealed new block            number=83 sealhash="e022f6…64f2ac" hash="a1e450…6878be" elapsed=2.290s
+INFO [07-04|05:05:40.427] 🔨 mined potential block                  number=83 hash="a1e450…6878be"
+INFO [07-04|05:05:40.429] Commit new mining work                   number=84 sealhash="d4799d…d08eb0" uncles=0 txs=0   gas=0       fees=0         elapsed="339.676µs"
+INFO [07-04|05:05:40.504] Commit new mining work                   number=84 sealhash="2bef63…4a8d24" uncles=0 txs=13  gas=273000  fees=5.46e-12  elapsed=75.530ms
+INFO [07-04|05:05:43.180] Imported new chain segment               blocks=1 txs=15  mgas=0.315 elapsed=142.866ms   mgasps=2.205  number=84 hash="ce39b1…b508db" dirty=121.41KiB
+INFO [07-04|05:05:43.186] Commit new mining work                   number=85 sealhash="cf6e4c…2d681b" uncles=0 txs=0   gas=0       fees=0         elapsed="195.798µs"
+INFO [07-04|05:05:43.203] Commit new mining work                   number=85 sealhash="f020ba…0e7563" uncles=0 txs=5   gas=105000  fees=2.1e-12   elapsed=16.309ms
+INFO [07-04|05:05:45.541] Imported new chain segment               blocks=1 txs=5   mgas=0.105 elapsed=95.198ms    mgasps=1.103  number=85 hash="cc2ab5…e1068c" dirty=122.75KiB
+INFO [07-04|05:05:45.638] 🔗 block reached canonical chain          number=78 hash="99d774…d1633a"
+INFO [07-04|05:05:45.638] Commit new mining work                   number=86 sealhash="c94563…7de9ac" uncles=0 txs=0   gas=0       fees=0         elapsed=79.096ms
+INFO [07-04|05:05:45.639] Commit new mining work                   number=86 sealhash="5d06a8…3f851b" uncles=0 txs=4   gas=84000   fees=1.68e-12  elapsed=79.981ms
+INFO [07-04|05:05:48.561] Commit new mining work                   number=86 sealhash="e48df0…61a9c5" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="655.646µs"
+INFO [07-04|05:05:50.135] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=33.688ms    mgasps=6.234  number=86 hash="78f3e4…428bf2" dirty=124.09KiB
+INFO [07-04|05:05:50.135] Commit new mining work                   number=87 sealhash="c7e1d1…4eccd0" uncles=0 txs=0   gas=0       fees=0         elapsed="131.015µs"
+INFO [07-04|05:05:50.136] Commit new mining work                   number=87 sealhash="550a1e…95a196" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.040ms
+INFO [07-04|05:05:52.949] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=133.838ms   mgasps=3.138  number=87 hash="145628…0f89d8" dirty=125.44KiB
+INFO [07-04|05:05:52.999] 🔗 block reached canonical chain          number=80 hash="caf72a…699580"
+INFO [07-04|05:05:53.003] Commit new mining work                   number=88 sealhash="ef09b5…8ec9e7" uncles=0 txs=0   gas=0       fees=0         elapsed=4.974ms
+INFO [07-04|05:05:53.008] Commit new mining work                   number=88 sealhash="ef09b5…8ec9e7" uncles=0 txs=0   gas=0       fees=0         elapsed=9.175ms
+INFO [07-04|05:05:54.575] Generating DAG in progress               epoch=1 percentage=16 elapsed=7m27.531s
+INFO [07-04|05:05:55.163] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=61.323ms    mgasps=0.000  number=88 hash="f9118e…b93086" dirty=126.33KiB
+INFO [07-04|05:05:55.163] Commit new mining work                   number=89 sealhash="a2a2a7…469e47" uncles=0 txs=0   gas=0       fees=0         elapsed="86.594µs"
+INFO [07-04|05:05:58.191] Commit new mining work                   number=89 sealhash="9752de…6cefb7" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=23.029ms
+INFO [07-04|05:06:01.253] Commit new mining work                   number=89 sealhash="d0e18a…25929e" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=79.709ms
+INFO [07-04|05:06:04.193] Commit new mining work                   number=89 sealhash="943c63…a9885c" uncles=0 txs=35  gas=735000  fees=1.47e-11  elapsed=15.520ms
+INFO [07-04|05:06:07.264] Commit new mining work                   number=89 sealhash="9e11f3…8f19ec" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=57.582ms
+INFO [07-04|05:06:10.217] Commit new mining work                   number=89 sealhash="cf80c4…febf93" uncles=0 txs=60  gas=1260000 fees=2.52e-11  elapsed=2.803ms
+INFO [07-04|05:06:13.253] Commit new mining work                   number=89 sealhash="34161a…d61de4" uncles=0 txs=65  gas=1365000 fees=2.73e-11  elapsed=36.173ms
+INFO [07-04|05:06:16.264] Commit new mining work                   number=89 sealhash="4da2ff…441eaf" uncles=0 txs=70  gas=1470000 fees=2.94e-11  elapsed=43.916ms
+INFO [07-04|05:06:17.678] Generating DAG in progress               epoch=1 percentage=17 elapsed=7m50.633s
+INFO [07-04|05:06:19.297] Commit new mining work                   number=89 sealhash="0328aa…e11b34" uncles=0 txs=90  gas=1890000 fees=3.78e-11  elapsed=72.284ms
+INFO [07-04|05:06:22.268] Imported new chain segment               blocks=1 txs=90  mgas=1.890 elapsed=445.004ms   mgasps=4.247  number=89 hash="ce5e7b…1be42d" dirty=128.12KiB
+INFO [07-04|05:06:22.314] Commit new mining work                   number=90 sealhash="1e195a…e68ae6" uncles=0 txs=0   gas=0       fees=0         elapsed=1.686ms
+INFO [07-04|05:06:22.315] Commit new mining work                   number=90 sealhash="f3261f…be9b0b" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=2.697ms
+INFO [07-04|05:06:25.117] Successfully sealed new block            number=90 sealhash="f3261f…be9b0b" hash="cfbfbf…0519bd" elapsed=2.801s
+INFO [07-04|05:06:25.117] 🔗 block reached canonical chain          number=83 hash="a1e450…6878be"
+INFO [07-04|05:06:25.117] 🔨 mined potential block                  number=90 hash="cfbfbf…0519bd"
+INFO [07-04|05:06:25.124] Commit new mining work                   number=91 sealhash="404454…50d8e1" uncles=0 txs=0   gas=0       fees=0         elapsed="128.261µs"
+INFO [07-04|05:06:25.153] Commit new mining work                   number=91 sealhash="92476f…32de9e" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=29.413ms
+INFO [07-04|05:06:25.198] Successfully sealed new block            number=91 sealhash="404454…50d8e1" hash="589f24…455753" elapsed=74.476ms
+INFO [07-04|05:06:25.198] 🔨 mined potential block                  number=91 hash="589f24…455753"
+INFO [07-04|05:06:25.319] Commit new mining work                   number=92 sealhash="46c6e4…e68d41" uncles=0 txs=0   gas=0       fees=0         elapsed="92.345µs"
+INFO [07-04|05:06:25.344] Commit new mining work                   number=92 sealhash="a00abc…ee866a" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=24.305ms
+INFO [07-04|05:06:28.341] Commit new mining work                   number=92 sealhash="c762de…09acb5" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed="905.399µs"
+INFO [07-04|05:06:30.040] Imported new chain segment               blocks=1 txs=16  mgas=0.336 elapsed=34.602ms    mgasps=9.710  number=92 hash="9f6fd9…513dac" dirty=131.70KiB
+INFO [07-04|05:06:30.053] Commit new mining work                   number=93 sealhash="fe9dc8…edebdb" uncles=0 txs=0   gas=0       fees=0         elapsed="162.94µs"
+INFO [07-04|05:06:30.060] Commit new mining work                   number=93 sealhash="7ee4ce…791b22" uncles=0 txs=12  gas=252000  fees=5.04e-12  elapsed=7.231ms
+INFO [07-04|05:06:33.077] Commit new mining work                   number=93 sealhash="e57f6e…95af4b" uncles=0 txs=24  gas=504000  fees=1.008e-11 elapsed=1.328ms
+INFO [07-04|05:06:36.078] Commit new mining work                   number=93 sealhash="9c4cf2…f6de05" uncles=0 txs=34  gas=714000  fees=1.428e-11 elapsed=1.749ms
+INFO [07-04|05:06:39.081] Commit new mining work                   number=93 sealhash="641cf2…d385ad" uncles=0 txs=44  gas=924000  fees=1.848e-11 elapsed=2.187ms
+INFO [07-04|05:06:40.361] Generating DAG in progress               epoch=1 percentage=18 elapsed=8m13.317s
+INFO [07-04|05:06:42.090] Commit new mining work                   number=93 sealhash="7a7e41…95f735" uncles=0 txs=64  gas=1344000 fees=2.688e-11 elapsed=3.125ms
+INFO [07-04|05:06:43.744] Successfully sealed new block            number=93 sealhash="7a7e41…95f735" hash="6217c5…f7b49d" elapsed=1.654s
+INFO [07-04|05:06:43.748] 🔨 mined potential block                  number=93 hash="6217c5…f7b49d"
+INFO [07-04|05:06:43.772] Commit new mining work                   number=94 sealhash="a2bed8…7e8808" uncles=0 txs=0   gas=0       fees=0         elapsed="258.469µs"
+INFO [07-04|05:06:43.789] Commit new mining work                   number=94 sealhash="a2bed8…7e8808" uncles=0 txs=0   gas=0       fees=0         elapsed=17.164ms
+INFO [07-04|05:06:46.803] Commit new mining work                   number=94 sealhash="37ce2e…49636d" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed="533.163µs"
+INFO [07-04|05:06:48.338] Successfully sealed new block            number=94 sealhash="37ce2e…49636d" hash="5f4185…0fdb91" elapsed=1.535s
+INFO [07-04|05:06:48.341] 🔨 mined potential block                  number=94 hash="5f4185…0fdb91"
+INFO [07-04|05:06:48.342] Commit new mining work                   number=95 sealhash="e7bc68…86b9a0" uncles=0 txs=0   gas=0       fees=0         elapsed="103.71µs"
+INFO [07-04|05:06:48.379] Commit new mining work                   number=95 sealhash="43264e…e621b2" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed=37.395ms
+INFO [07-04|05:06:51.401] Commit new mining work                   number=95 sealhash="2f876c…77d3b8" uncles=0 txs=23  gas=483000  fees=9.66e-12  elapsed=48.694ms
+INFO [07-04|05:06:51.851] Successfully sealed new block            number=95 sealhash="2f876c…77d3b8" hash="7f0685…05afa0" elapsed=450.274ms
+INFO [07-04|05:06:51.855] 🔨 mined potential block                  number=95 hash="7f0685…05afa0"
+INFO [07-04|05:06:51.870] Commit new mining work                   number=96 sealhash="faafb2…c1032a" uncles=0 txs=0   gas=0       fees=0         elapsed="214.739µs"
+INFO [07-04|05:06:53.389] Successfully sealed new block            number=96 sealhash="faafb2…c1032a" hash="b67642…c9c2e7" elapsed=1.519s
+INFO [07-04|05:06:53.389] 🔨 mined potential block                  number=96 hash="b67642…c9c2e7"
+INFO [07-04|05:06:53.466] Commit new mining work                   number=97 sealhash="8e7afd…3b372f" uncles=0 txs=0   gas=0       fees=0         elapsed="105.893µs"
+INFO [07-04|05:06:53.797] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=34.820ms    mgasps=0.000  number=96 hash="65ea20…4925cb" dirty=137.53KiB
+INFO [07-04|05:06:53.812] Commit new mining work                   number=97 sealhash="689cab…61608c" uncles=1 txs=0   gas=0       fees=0         elapsed="101.647µs"
+INFO [07-04|05:06:56.532] Commit new mining work                   number=97 sealhash="16f4cc…03fc37" uncles=1 txs=10  gas=210000  fees=4.2e-12   elapsed=47.977ms
+INFO [07-04|05:06:57.981] Imported new chain segment               blocks=1 txs=11  mgas=0.231 elapsed=222.528ms   mgasps=1.038  number=97 hash="aa9401…cc8c2d" dirty=138.88KiB
+INFO [07-04|05:06:58.028] 🔗 block reached canonical chain          number=90 hash="cfbfbf…0519bd"
+INFO [07-04|05:06:58.028] Commit new mining work                   number=98 sealhash="ad0f0a…8496df" uncles=0 txs=0   gas=0       fees=0         elapsed="300.817µs"
+INFO [07-04|05:06:58.035] Commit new mining work                   number=98 sealhash="54f75b…ca37bb" uncles=0 txs=9   gas=189000  fees=3.78e-12  elapsed=7.617ms
+INFO [07-04|05:07:01.044] Commit new mining work                   number=98 sealhash="a9dd22…d112b1" uncles=0 txs=19  gas=399000  fees=7.98e-12  elapsed=4.753ms
+INFO [07-04|05:07:01.404] Generating DAG in progress               epoch=1 percentage=19 elapsed=8m34.359s
+INFO [07-04|05:07:01.969] Successfully sealed new block            number=98 sealhash="a9dd22…d112b1" hash="d88381…1ee2ab" elapsed=925.528ms
+INFO [07-04|05:07:01.969] 🔗 block reached canonical chain          number=91 hash="589f24…455753"
+INFO [07-04|05:07:01.969] 🔨 mined potential block                  number=98 hash="d88381…1ee2ab"
+INFO [07-04|05:07:01.998] Commit new mining work                   number=99 sealhash="ca4ff2…085455" uncles=0 txs=0   gas=0       fees=0         elapsed="174.324µs"
+INFO [07-04|05:07:02.032] Commit new mining work                   number=99 sealhash="ca4ff2…085455" uncles=0 txs=0   gas=0       fees=0         elapsed=34.144ms
+INFO [07-04|05:07:04.281] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=251.942ms   mgasps=0.000  number=99 hash="19b24c…1e9df5" dirty=141.11KiB
+INFO [07-04|05:07:04.288] Commit new mining work                   number=100 sealhash="1739b5…9ce421" uncles=0 txs=0   gas=0       fees=0         elapsed=6.067ms
+INFO [07-04|05:07:04.291] Commit new mining work                   number=100 sealhash="021652…926a3f" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=8.640ms
+INFO [07-04|05:07:07.296] Commit new mining work                   number=100 sealhash="4847de…5d86bc" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed="931.407µs"
+INFO [07-04|05:07:07.633] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=17.650ms    mgasps=11.898 number=100 hash="facfe7…47d09a" dirty=142.45KiB
+INFO [07-04|05:07:07.640] 🔗 block reached canonical chain          number=93  hash="6217c5…f7b49d"
+INFO [07-04|05:07:07.641] Commit new mining work                   number=101 sealhash="f18c13…8ef945" uncles=0 txs=0   gas=0       fees=0         elapsed="590.645µs"
+INFO [07-04|05:07:07.642] Commit new mining work                   number=101 sealhash="429797…c23a17" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.862ms
+INFO [07-04|05:07:10.652] Commit new mining work                   number=101 sealhash="567d48…2715ee" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.408ms
+INFO [07-04|05:07:10.672] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=167.770ms   mgasps=1.252  number=101 hash="fba2f9…b4e15b" dirty=143.35KiB
+INFO [07-04|05:07:10.673] 🔗 block reached canonical chain          number=94  hash="5f4185…0fdb91"
+INFO [07-04|05:07:10.673] Commit new mining work                   number=102 sealhash="1d2cd2…c96417" uncles=0 txs=0   gas=0       fees=0         elapsed="247.128µs"
+INFO [07-04|05:07:10.675] Commit new mining work                   number=102 sealhash="96536b…f70ba0" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=2.498ms
+INFO [07-04|05:07:13.732] Commit new mining work                   number=102 sealhash="435883…2f3b98" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=25.386ms
+INFO [07-04|05:07:16.450] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=177.463ms   mgasps=2.367  number=102 hash="c3a88c…4be2c5" dirty=145.14KiB
+INFO [07-04|05:07:16.451] 🔗 block reached canonical chain          number=95  hash="7f0685…05afa0"
+INFO [07-04|05:07:16.454] Commit new mining work                   number=103 sealhash="c5b588…b26631" uncles=0 txs=0   gas=0       fees=0         elapsed=3.345ms
+INFO [07-04|05:07:16.477] Commit new mining work                   number=103 sealhash="4d1d29…5a18a2" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=27.010ms
+INFO [07-04|05:07:19.457] Commit new mining work                   number=103 sealhash="c6f215…c24ccb" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.000ms
+INFO [07-04|05:07:21.790] Generating DAG in progress               epoch=1 percentage=20 elapsed=8m54.745s
+INFO [07-04|05:07:22.467] Commit new mining work                   number=103 sealhash="883728…ae9751" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=2.340ms
+INFO [07-04|05:07:25.490] Commit new mining work                   number=103 sealhash="9b7bd4…7dc940" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=4.080ms
+INFO [07-04|05:07:28.787] Commit new mining work                   number=103 sealhash="1e2982…698899" uncles=0 txs=60  gas=1260000 fees=2.52e-11  elapsed=297.975ms
+INFO [07-04|05:07:30.227] Successfully sealed new block            number=103 sealhash="1e2982…698899" hash="e260b2…c9fb59" elapsed=1.439s
+INFO [07-04|05:07:30.228] 🔗 block reached canonical chain          number=96  hash="b67642…c9c2e7"
+INFO [07-04|05:07:30.232] 🔨 mined potential block                  number=103 hash="e260b2…c9fb59"
+INFO [07-04|05:07:30.245] Commit new mining work                   number=104 sealhash="d9bf79…c94b68" uncles=0 txs=0   gas=0       fees=0         elapsed=2.166ms
+INFO [07-04|05:07:30.269] Commit new mining work                   number=104 sealhash="2c0cf2…c08a1e" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed=25.798ms
+INFO [07-04|05:07:33.248] Commit new mining work                   number=104 sealhash="1d3a8e…b6480d" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=5.360ms
+INFO [07-04|05:07:36.256] Commit new mining work                   number=104 sealhash="79c45e…734e88" uncles=0 txs=24  gas=504000  fees=1.008e-11 elapsed=3.021ms
+INFO [07-04|05:07:37.126] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=134.514ms   mgasps=3.122  number=104 hash="e0a5a0…76cc70" dirty=148.28KiB
+INFO [07-04|05:07:37.127] Commit new mining work                   number=105 sealhash="d38336…295e8a" uncles=0 txs=0   gas=0       fees=0         elapsed="150.032µs"
+INFO [07-04|05:07:37.131] Commit new mining work                   number=105 sealhash="21d85b…bf5d7b" uncles=0 txs=8   gas=168000  fees=3.36e-12  elapsed=4.290ms
+INFO [07-04|05:07:40.159] Commit new mining work                   number=105 sealhash="1ba49d…e07281" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=7.230ms
+INFO [07-04|05:07:41.519] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=90.089ms    mgasps=4.662  number=105 hash="7e0a4f…1017c2" dirty=149.62KiB
+INFO [07-04|05:07:41.556] 🔗 block reached canonical chain          number=98  hash="d88381…1ee2ab"
+INFO [07-04|05:07:41.556] Commit new mining work                   number=106 sealhash="62e852…b89d37" uncles=0 txs=0   gas=0       fees=0         elapsed="302.886µs"
+INFO [07-04|05:07:41.556] Commit new mining work                   number=106 sealhash="f66e3f…71373e" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed="731.436µs"
+INFO [07-04|05:07:43.564] Generating DAG in progress               epoch=1 percentage=21 elapsed=9m16.519s
+INFO [07-04|05:07:44.584] Commit new mining work                   number=106 sealhash="c67070…346e5d" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=18.070ms
+INFO [07-04|05:07:47.611] Commit new mining work                   number=106 sealhash="b08ccb…173585" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.032ms
+INFO [07-04|05:07:50.629] Commit new mining work                   number=106 sealhash="c76b0d…ebb7bd" uncles=0 txs=40  gas=840000  fees=1.68e-11  elapsed=5.729ms
+INFO [07-04|05:07:53.242] Successfully sealed new block            number=106 sealhash="c76b0d…ebb7bd" hash="f3f288…424e4c" elapsed=2.613s
+INFO [07-04|05:07:53.243] 🔨 mined potential block                  number=106 hash="f3f288…424e4c"
+INFO [07-04|05:07:53.253] Commit new mining work                   number=107 sealhash="71e61f…35a070" uncles=0 txs=0   gas=0       fees=0         elapsed="216.669µs"
+INFO [07-04|05:07:53.328] Commit new mining work                   number=107 sealhash="9d55ca…061140" uncles=0 txs=5   gas=105000  fees=2.1e-12   elapsed=75.390ms
+INFO [07-04|05:07:56.274] Commit new mining work                   number=107 sealhash="0517a5…614bd5" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=3.065ms
+INFO [07-04|05:07:57.522] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=158.914ms   mgasps=2.643  number=107 hash="73c19f…97ecd3" dirty=152.76KiB
+INFO [07-04|05:07:57.540] Commit new mining work                   number=108 sealhash="605130…b6822e" uncles=0 txs=0   gas=0       fees=0         elapsed="159.04µs"
+INFO [07-04|05:07:57.548] Commit new mining work                   number=108 sealhash="605130…b6822e" uncles=0 txs=0   gas=0       fees=0         elapsed=7.587ms
+INFO [07-04|05:08:00.568] Commit new mining work                   number=108 sealhash="54dc86…202e14" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="934.983µs"
+INFO [07-04|05:08:01.254] Successfully sealed new block            number=108 sealhash="54dc86…202e14" hash="750b18…3869a2" elapsed=685.767ms
+INFO [07-04|05:08:01.254] 🔨 mined potential block                  number=108 hash="750b18…3869a2"
+INFO [07-04|05:08:01.260] Commit new mining work                   number=109 sealhash="c609dc…d28ba0" uncles=0 txs=0   gas=0       fees=0         elapsed="171.437µs"
+INFO [07-04|05:08:01.284] Commit new mining work                   number=109 sealhash="c609dc…d28ba0" uncles=0 txs=0   gas=0       fees=0         elapsed=24.441ms
+INFO [07-04|05:08:02.775] Generating DAG in progress               epoch=1 percentage=22 elapsed=9m35.731s
+INFO [07-04|05:08:04.275] Commit new mining work                   number=109 sealhash="78e414…7d7ad2" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="568.936µs"
+INFO [07-04|05:08:04.938] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=45.810ms    mgasps=4.584  number=109 hash="7fb575…c1f43b" dirty=155.45KiB
+INFO [07-04|05:08:04.959] Commit new mining work                   number=110 sealhash="f3b153…7ceaa2" uncles=0 txs=0   gas=0       fees=0         elapsed="130.939µs"
+INFO [07-04|05:08:04.960] Commit new mining work                   number=110 sealhash="f3b153…7ceaa2" uncles=0 txs=0   gas=0       fees=0         elapsed="924.186µs"
+INFO [07-04|05:08:07.977] Commit new mining work                   number=110 sealhash="3a259d…d54fe1" uncles=0 txs=17  gas=357000  fees=7.14e-12  elapsed="857.023µs"
+INFO [07-04|05:08:10.998] Commit new mining work                   number=110 sealhash="c6978a…9f417d" uncles=0 txs=26  gas=546000  fees=1.092e-11 elapsed=1.348ms
+INFO [07-04|05:08:14.025] Commit new mining work                   number=110 sealhash="9937bd…853e41" uncles=0 txs=37  gas=777000  fees=1.554e-11 elapsed=20.064ms
+INFO [07-04|05:08:15.373] Successfully sealed new block            number=110 sealhash="9937bd…853e41" hash="e51bd4…13b987" elapsed=1.347s
+INFO [07-04|05:08:15.374] 🔗 block reached canonical chain          number=103 hash="e260b2…c9fb59"
+INFO [07-04|05:08:15.374] 🔨 mined potential block                  number=110 hash="e51bd4…13b987"
+INFO [07-04|05:08:15.377] Commit new mining work                   number=111 sealhash="e0d19a…09c1fd" uncles=0 txs=0   gas=0       fees=0         elapsed="185.374µs"
+INFO [07-04|05:08:15.451] Commit new mining work                   number=111 sealhash="00c057…9c88d0" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed=74.355ms
+INFO [07-04|05:08:17.590] Successfully sealed new block            number=111 sealhash="00c057…9c88d0" hash="bcc646…68af91" elapsed=2.210s
+INFO [07-04|05:08:17.593] 🔨 mined potential block                  number=111 hash="bcc646…68af91"
+INFO [07-04|05:08:17.615] Commit new mining work                   number=112 sealhash="be40e9…c67220" uncles=0 txs=0   gas=0       fees=0         elapsed="222.539µs"
+INFO [07-04|05:08:17.622] Commit new mining work                   number=112 sealhash="e0bb03…de4b90" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=7.351ms
+INFO [07-04|05:08:20.655] Commit new mining work                   number=112 sealhash="e2f5cd…ff359b" uncles=0 txs=12  gas=252000  fees=5.04e-12  elapsed=1.883ms
+INFO [07-04|05:08:23.302] Imported new chain segment               blocks=1 txs=19  mgas=0.399 elapsed=58.899ms    mgasps=6.774  number=112 hash="1fb8a2…1fc9ff" dirty=159.94KiB
+INFO [07-04|05:08:23.316] Commit new mining work                   number=113 sealhash="af47ca…0f991f" uncles=0 txs=0   gas=0       fees=0         elapsed="878.157µs"
+INFO [07-04|05:08:23.321] Commit new mining work                   number=113 sealhash="39ad08…70be55" uncles=0 txs=1   gas=21000   fees=4.2e-13   elapsed=6.346ms
+INFO [07-04|05:08:26.359] Commit new mining work                   number=113 sealhash="122577…f6fd9a" uncles=0 txs=21  gas=441000  fees=8.82e-12  elapsed=1.569ms
+INFO [07-04|05:08:27.195] Generating DAG in progress               epoch=1 percentage=23 elapsed=10m0.150s
+INFO [07-04|05:08:32.430] Commit new mining work                   number=113 sealhash="7395ad…7b3a39" uncles=0 txs=31  gas=651000  fees=1.302e-11 elapsed=1.508ms
+INFO [07-04|05:08:33.179] Successfully sealed new block            number=113 sealhash="7395ad…7b3a39" hash="7e5204…23f0d2" elapsed=749.415ms
+INFO [07-04|05:08:33.179] 🔗 block reached canonical chain          number=106 hash="f3f288…424e4c"
+INFO [07-04|05:08:33.179] 🔨 mined potential block                  number=113 hash="7e5204…23f0d2"
+INFO [07-04|05:08:33.243] Commit new mining work                   number=114 sealhash="b628fc…ccc14a" uncles=0 txs=0   gas=0       fees=0         elapsed="240.144µs"
+INFO [07-04|05:08:33.267] Commit new mining work                   number=114 sealhash="5dbabb…6d973d" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=24.509ms
+INFO [07-04|05:08:36.252] Commit new mining work                   number=114 sealhash="bc46f1…73b65f" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed="929.824µs"
+INFO [07-04|05:08:39.358] Commit new mining work                   number=114 sealhash="a0112c…04a5e3" uncles=0 txs=24  gas=504000  fees=1.008e-11 elapsed=93.443ms
+INFO [07-04|05:08:42.324] Commit new mining work                   number=114 sealhash="1db097…6d5f44" uncles=0 txs=39  gas=819000  fees=1.638e-11 elapsed=43.021ms
+INFO [07-04|05:08:45.311] Commit new mining work                   number=114 sealhash="0f394d…f2174d" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=4.865ms
+INFO [07-04|05:08:48.314] Commit new mining work                   number=114 sealhash="ae5a75…213296" uncles=0 txs=53  gas=1113000 fees=2.226e-11 elapsed=2.720ms
+INFO [07-04|05:08:50.377] Generating DAG in progress               epoch=1 percentage=24 elapsed=10m23.332s
+INFO [07-04|05:08:51.352] Commit new mining work                   number=114 sealhash="fea096…11bd34" uncles=0 txs=70  gas=1470000 fees=2.94e-11  elapsed=39.708ms
+INFO [07-04|05:08:54.358] Commit new mining work                   number=114 sealhash="96c27b…26128c" uncles=0 txs=80  gas=1680000 fees=3.36e-11  elapsed=27.724ms
+INFO [07-04|05:08:57.345] Commit new mining work                   number=114 sealhash="517766…30867d" uncles=0 txs=83  gas=1743000 fees=3.486e-11 elapsed=13.396ms
+INFO [07-04|05:09:00.702] Commit new mining work                   number=114 sealhash="f9f037…7c0ee3" uncles=0 txs=98  gas=2058000 fees=4.116e-11 elapsed=363.021ms
+INFO [07-04|05:09:03.164] Imported new chain segment               blocks=1 txs=100 mgas=2.100 elapsed=633.418ms   mgasps=3.315  number=114 hash="33d260…82a4b2" dirty=163.53KiB
+INFO [07-04|05:09:03.168] Commit new mining work                   number=115 sealhash="2d26c0…2fa7ab" uncles=0 txs=0   gas=0       fees=0         elapsed="430.417µs"
+INFO [07-04|05:09:03.249] Commit new mining work                   number=115 sealhash="26c8bb…b43391" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=81.595ms
+INFO [07-04|05:09:05.002] Imported new chain segment               blocks=1 txs=4   mgas=0.084 elapsed=154.469ms   mgasps=0.544  number=115 hash="ef9a32…4005a7" dirty=164.87KiB
+INFO [07-04|05:09:05.012] 🔗 block reached canonical chain          number=108 hash="750b18…3869a2"
+INFO [07-04|05:09:05.012] Commit new mining work                   number=116 sealhash="4b5901…67e694" uncles=0 txs=0   gas=0       fees=0         elapsed="277.114µs"
+INFO [07-04|05:09:05.017] Commit new mining work                   number=116 sealhash="c1229d…a3d73c" uncles=0 txs=6   gas=126000  fees=2.52e-12  elapsed=5.341ms
+INFO [07-04|05:09:08.036] Commit new mining work                   number=116 sealhash="97f3cc…496174" uncles=0 txs=12  gas=252000  fees=5.04e-12  elapsed="699.829µs"
+INFO [07-04|05:09:11.053] Commit new mining work                   number=116 sealhash="001733…e9cf8c" uncles=0 txs=26  gas=546000  fees=1.092e-11 elapsed=1.356ms
+INFO [07-04|05:09:11.567] Imported new chain segment               blocks=1 txs=16  mgas=0.336 elapsed=529.852ms   mgasps=0.634  number=116 hash="4d07e4…6d4eee" dirty=166.67KiB
+INFO [07-04|05:09:11.585] Commit new mining work                   number=117 sealhash="daec84…b0d024" uncles=0 txs=0   gas=0       fees=0         elapsed="97.301µs"
+INFO [07-04|05:09:11.699] Commit new mining work                   number=117 sealhash="6457b9…78aec0" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=113.914ms
+INFO [07-04|05:09:13.392] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=221.109ms   mgasps=0.950  number=117 hash="a6b40b…525118" dirty=167.56KiB
+INFO [07-04|05:09:13.394] 🔗 block reached canonical chain          number=110 hash="e51bd4…13b987"
+INFO [07-04|05:09:13.394] Commit new mining work                   number=118 sealhash="26a2c1…15566e" uncles=0 txs=0   gas=0       fees=0         elapsed="274.586µs"
+INFO [07-04|05:09:13.406] Commit new mining work                   number=118 sealhash="6db418…435f5c" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=12.930ms
+INFO [07-04|05:09:13.814] Imported new chain segment               blocks=1 txs=7   mgas=0.147 elapsed=34.440ms    mgasps=4.268  number=118 hash="735374…f28690" dirty=168.90KiB
+INFO [07-04|05:09:13.814] 🔗 block reached canonical chain          number=111 hash="bcc646…68af91"
+INFO [07-04|05:09:13.815] Commit new mining work                   number=119 sealhash="eabdc8…5fe660" uncles=0 txs=0   gas=0       fees=0         elapsed="955.42µs"
+INFO [07-04|05:09:13.818] Commit new mining work                   number=119 sealhash="e5bf74…0dc83f" uncles=0 txs=3   gas=63000   fees=1.26e-12  elapsed=3.368ms
+INFO [07-04|05:09:15.586] Generating DAG in progress               epoch=1 percentage=25 elapsed=10m48.541s
+INFO [07-04|05:09:16.816] Commit new mining work                   number=119 sealhash="429f28…6ce8d0" uncles=0 txs=9   gas=189000  fees=3.78e-12  elapsed="553.056µs"
+INFO [07-04|05:09:18.154] Successfully sealed new block            number=119 sealhash="429f28…6ce8d0" hash="b26d22…19ae42" elapsed=1.337s
+INFO [07-04|05:09:18.198] 🔨 mined potential block                  number=119 hash="b26d22…19ae42"
+INFO [07-04|05:09:18.164] Commit new mining work                   number=120 sealhash="9ec354…12b391" uncles=0 txs=0   gas=0       fees=0         elapsed="309.848µs"
+INFO [07-04|05:09:18.260] Commit new mining work                   number=120 sealhash="5011d0…af6876" uncles=0 txs=4   gas=84000   fees=1.68e-12  elapsed=96.585ms
+INFO [07-04|05:09:21.246] Commit new mining work                   number=120 sealhash="7ccca3…c53da3" uncles=0 txs=14  gas=294000  fees=5.88e-12  elapsed="787.871µs"
+INFO [07-04|05:09:24.264] Commit new mining work                   number=120 sealhash="e64021…a07452" uncles=0 txs=24  gas=504000  fees=1.008e-11 elapsed=1.071ms
+INFO [07-04|05:09:27.283] Commit new mining work                   number=120 sealhash="4ac6c1…b32cea" uncles=0 txs=34  gas=714000  fees=1.428e-11 elapsed=1.731ms
+INFO [07-04|05:09:30.344] Commit new mining work                   number=120 sealhash="0e19a7…48a9bb" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=33.370ms
+INFO [07-04|05:09:32.423] Imported new chain segment               blocks=1 txs=44  mgas=0.924 elapsed=174.951ms   mgasps=5.281  number=120 hash="547452…bd521e" dirty=172.49KiB
+INFO [07-04|05:09:32.462] 🔗 block reached canonical chain          number=113 hash="7e5204…23f0d2"
+INFO [07-04|05:09:32.462] Commit new mining work                   number=121 sealhash="3bea0e…0b0ab2" uncles=0 txs=0   gas=0       fees=0         elapsed="266.801µs"
+INFO [07-04|05:09:32.467] Commit new mining work                   number=121 sealhash="d0c551…debe3a" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=4.708ms
+INFO [07-04|05:09:35.466] Commit new mining work                   number=121 sealhash="0f4be2…378b98" uncles=0 txs=18  gas=378000  fees=7.56e-12  elapsed="969.984µs"
+INFO [07-04|05:09:38.493] Commit new mining work                   number=121 sealhash="e97877…fa2e71" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=21.536ms
+INFO [07-04|05:09:40.825] Generating DAG in progress               epoch=1 percentage=26 elapsed=11m13.781s
+INFO [07-04|05:09:41.494] Commit new mining work                   number=121 sealhash="c1ca8e…cf337c" uncles=0 txs=40  gas=840000  fees=1.68e-11  elapsed=6.167ms
+INFO [07-04|05:09:44.028] Successfully sealed new block            number=121 sealhash="c1ca8e…cf337c" hash="d1fccb…120d81" elapsed=2.533s
+INFO [07-04|05:09:44.028] 🔨 mined potential block                  number=121 hash="d1fccb…120d81"
+INFO [07-04|05:09:44.029] Commit new mining work                   number=122 sealhash="8f715f…4a9538" uncles=0 txs=0   gas=0       fees=0         elapsed="184.363µs"
+INFO [07-04|05:09:44.128] Commit new mining work                   number=122 sealhash="15061e…dee8b8" uncles=0 txs=5   gas=105000  fees=2.1e-12   elapsed=99.630ms
+INFO [07-04|05:09:46.206] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=147.115ms   mgasps=0.000  number=122 hash="74f857…eda845" dirty=175.18KiB
+INFO [07-04|05:09:46.212] Commit new mining work                   number=123 sealhash="c1b502…6ecc12" uncles=0 txs=0   gas=0       fees=0         elapsed=1.258ms
+INFO [07-04|05:09:46.218] Commit new mining work                   number=123 sealhash="91d95a…935535" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=7.290ms
+INFO [07-04|05:09:48.406] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=132.051ms   mgasps=1.590  number=123 hash="733749…344f7c" dirty=176.53KiB
+INFO [07-04|05:09:48.409] Commit new mining work                   number=124 sealhash="477c3e…f7e1c7" uncles=0 txs=0   gas=0       fees=0         elapsed="126.57µs"
+INFO [07-04|05:09:48.410] Commit new mining work                   number=124 sealhash="4fd78e…6dd7d1" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.136ms
+INFO [07-04|05:09:51.493] Commit new mining work                   number=124 sealhash="906760…9d1395" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=65.039ms
+INFO [07-04|05:09:53.362] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=301.599ms   mgasps=1.393  number=124 hash="51d2d2…90ba92" dirty=177.87KiB
+INFO [07-04|05:09:53.384] Commit new mining work                   number=125 sealhash="86c245…65c4cb" uncles=0 txs=0   gas=0       fees=0         elapsed=1.641ms
+INFO [07-04|05:09:53.403] Commit new mining work                   number=125 sealhash="7cfbf0…88dd5c" uncles=0 txs=1   gas=21000   fees=4.2e-13   elapsed=20.936ms
+INFO [07-04|05:09:54.008] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=364.834ms   mgasps=0.000  number=125 hash="29accf…e4c2c6" dirty=178.76KiB
+INFO [07-04|05:09:54.009] Commit new mining work                   number=126 sealhash="721c4a…05f743" uncles=0 txs=0   gas=0       fees=0         elapsed="105.912µs"
+INFO [07-04|05:09:54.031] Commit new mining work                   number=126 sealhash="4d6314…d12a2f" uncles=0 txs=5   gas=105000  fees=2.1e-12   elapsed=22.680ms
+INFO [07-04|05:09:55.991] Imported new chain segment               blocks=1 txs=1   mgas=0.021 elapsed=250.996ms   mgasps=0.084  number=126 hash="f94bda…8ececb" dirty=180.10KiB
+INFO [07-04|05:09:56.096] 🔗 block reached canonical chain          number=119 hash="b26d22…19ae42"
+INFO [07-04|05:09:56.164] Commit new mining work                   number=127 sealhash="231c7c…fdc05c" uncles=0 txs=0   gas=0       fees=0         elapsed=68.035ms
+INFO [07-04|05:09:56.165] Commit new mining work                   number=127 sealhash="6ad5c2…baed2c" uncles=0 txs=9   gas=189000  fees=3.78e-12  elapsed=68.784ms
+INFO [07-04|05:09:58.098] Successfully sealed new block            number=127 sealhash="6ad5c2…baed2c" hash="29b0ca…947ced" elapsed=1.933s
+INFO [07-04|05:09:58.098] 🔨 mined potential block                  number=127 hash="29b0ca…947ced"
+INFO [07-04|05:09:58.118] Commit new mining work                   number=128 sealhash="6c3297…76a6ec" uncles=0 txs=0   gas=0       fees=0         elapsed="132.84µs"
+INFO [07-04|05:09:58.173] Commit new mining work                   number=128 sealhash="c16018…6609c4" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=55.936ms
+INFO [07-04|05:10:00.120] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=330.078ms   mgasps=0.636  number=128 hash="38c530…1fbb96" dirty=182.34KiB
+INFO [07-04|05:10:00.125] 🔗 block reached canonical chain          number=121 hash="d1fccb…120d81"
+INFO [07-04|05:10:00.127] Commit new mining work                   number=129 sealhash="a5d774…401269" uncles=0 txs=0   gas=0       fees=0         elapsed=2.279ms
+INFO [07-04|05:10:00.135] Commit new mining work                   number=129 sealhash="03af18…abc30d" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=11.007ms
+INFO [07-04|05:10:01.171] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=21.613ms    mgasps=0.000  number=129 hash="788b60…84e995" dirty=182.34KiB
+INFO [07-04|05:10:01.172] Commit new mining work                   number=130 sealhash="81b189…2e20da" uncles=0 txs=0   gas=0       fees=0         elapsed="70.56µs"
+INFO [07-04|05:10:01.173] Commit new mining work                   number=130 sealhash="a91be2…34e714" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=1.127ms
+INFO [07-04|05:10:02.389] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=178.778ms   mgasps=1.175  number=130 hash="8a2266…60a6d1" dirty=182.80KiB
+INFO [07-04|05:10:02.397] Commit new mining work                   number=131 sealhash="188e33…847d45" uncles=0 txs=0   gas=0       fees=0         elapsed="175.134µs"
+INFO [07-04|05:10:05.425] Commit new mining work                   number=131 sealhash="745794…a2f461" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="621.502µs"
+INFO [07-04|05:10:05.718] Successfully sealed new block            number=131 sealhash="745794…a2f461" hash="c74681…760c2d" elapsed=292.426ms
+INFO [07-04|05:10:05.718] 🔨 mined potential block                  number=131 hash="c74681…760c2d"
+INFO [07-04|05:10:05.720] Commit new mining work                   number=132 sealhash="d807d3…9387da" uncles=0 txs=0   gas=0       fees=0         elapsed="115.616µs"
+INFO [07-04|05:10:05.755] Commit new mining work                   number=132 sealhash="d807d3…9387da" uncles=0 txs=0   gas=0       fees=0         elapsed=35.677ms
+INFO [07-04|05:10:08.733] Commit new mining work                   number=132 sealhash="060bbb…dca75f" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=7.962ms
+INFO [07-04|05:10:10.707] Generating DAG in progress               epoch=1 percentage=27 elapsed=11m43.662s
+INFO [07-04|05:10:11.731] Commit new mining work                   number=132 sealhash="9612e1…8fcc31" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=4.982ms
+INFO [07-04|05:10:12.693] Successfully sealed new block            number=132 sealhash="9612e1…8fcc31" hash="c293d8…d3e084" elapsed=961.936ms
+INFO [07-04|05:10:12.693] 🔨 mined potential block                  number=132 hash="c293d8…d3e084"
+INFO [07-04|05:10:12.715] Commit new mining work                   number=133 sealhash="b58387…5721a0" uncles=0 txs=0   gas=0       fees=0         elapsed="159.326µs"
+INFO [07-04|05:10:12.750] Commit new mining work                   number=133 sealhash="b58387…5721a0" uncles=0 txs=0   gas=0       fees=0         elapsed=35.523ms
+INFO [07-04|05:10:15.767] Commit new mining work                   number=133 sealhash="467741…7c79cc" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=50.379ms
+INFO [07-04|05:10:18.738] Commit new mining work                   number=133 sealhash="3e4353…b3943e" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.402ms
+INFO [07-04|05:10:19.215] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=170.192ms   mgasps=2.468  number=133 hash="0ce99e…eb7434" dirty=183.71KiB
+INFO [07-04|05:10:19.219] Commit new mining work                   number=134 sealhash="1aee33…992aad" uncles=0 txs=0   gas=0       fees=0         elapsed="153.243µs"
+INFO [07-04|05:10:19.257] Commit new mining work                   number=134 sealhash="df2991…c114f5" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=37.802ms
+INFO [07-04|05:10:19.783] Successfully sealed new block            number=134 sealhash="df2991…c114f5" hash="c8de37…20f179" elapsed=562.241ms
+INFO [07-04|05:10:19.785] 🔗 block reached canonical chain          number=127 hash="29b0ca…947ced"
+INFO [07-04|05:10:19.785] 🔨 mined potential block                  number=134 hash="c8de37…20f179"
+INFO [07-04|05:10:19.816] Commit new mining work                   number=135 sealhash="321719…621d6e" uncles=0 txs=0   gas=0       fees=0         elapsed="132.776µs"
+INFO [07-04|05:10:19.947] Commit new mining work                   number=135 sealhash="321719…621d6e" uncles=0 txs=0   gas=0       fees=0         elapsed=131.309ms
+INFO [07-04|05:10:22.819] Commit new mining work                   number=135 sealhash="87eb3c…5066d5" uncles=0 txs=4   gas=84000   fees=1.68e-12  elapsed="510.887µs"
+INFO [07-04|05:10:24.280] Successfully sealed new block            number=135 sealhash="87eb3c…5066d5" hash="aec7ab…8ce520" elapsed=1.461s
+INFO [07-04|05:10:24.280] 🔨 mined potential block                  number=135 hash="aec7ab…8ce520"
+INFO [07-04|05:10:24.281] Commit new mining work                   number=136 sealhash="2a29d7…f221cb" uncles=0 txs=0   gas=0       fees=0         elapsed="118.899µs"
+INFO [07-04|05:10:24.283] Commit new mining work                   number=136 sealhash="f42f5e…690e30" uncles=0 txs=6   gas=126000  fees=2.52e-12  elapsed=2.241ms
+INFO [07-04|05:10:27.287] Commit new mining work                   number=136 sealhash="bec8af…ad5fe5" uncles=0 txs=16  gas=336000  fees=6.72e-12  elapsed="828.502µs"
+INFO [07-04|05:10:30.191] Successfully sealed new block            number=136 sealhash="bec8af…ad5fe5" hash="9072c0…c39d6d" elapsed=2.904s
+INFO [07-04|05:10:30.233] 🔨 mined potential block                  number=136 hash="9072c0…c39d6d"
+INFO [07-04|05:10:30.204] Commit new mining work                   number=137 sealhash="66ac72…a0d695" uncles=0 txs=0   gas=0       fees=0         elapsed="150.143µs"
+INFO [07-04|05:10:30.235] Commit new mining work                   number=137 sealhash="406b05…c1f375" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=30.897ms
+INFO [07-04|05:10:33.210] Commit new mining work                   number=137 sealhash="f4d733…5155b4" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.102ms
+INFO [07-04|05:10:36.253] Commit new mining work                   number=137 sealhash="f09886…6698a5" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=34.492ms
+INFO [07-04|05:10:37.257] Imported new chain segment               blocks=1 txs=22  mgas=0.462 elapsed=189.151ms   mgasps=2.442  number=137 hash="bf47fc…51397f" dirty=183.71KiB
+INFO [07-04|05:10:37.324] Commit new mining work                   number=138 sealhash="556ad6…78e870" uncles=0 txs=0   gas=0       fees=0         elapsed=6.659ms
+INFO [07-04|05:10:37.410] Commit new mining work                   number=138 sealhash="c1236b…21b43b" uncles=0 txs=18  gas=378000  fees=7.56e-12  elapsed=92.499ms
+INFO [07-04|05:10:38.879] Imported new chain segment               blocks=1 txs=18  mgas=0.378 elapsed=31.551ms    mgasps=11.980 number=138 hash="eb40c7…badd54" dirty=183.26KiB
+INFO [07-04|05:10:38.880] 🔗 block reached canonical chain          number=131 hash="c74681…760c2d"
+INFO [07-04|05:10:38.881] Commit new mining work                   number=139 sealhash="c8d28f…53caa5" uncles=0 txs=0   gas=0       fees=0         elapsed="896.837µs"
+INFO [07-04|05:10:38.897] Commit new mining work                   number=139 sealhash="c8d28f…53caa5" uncles=0 txs=0   gas=0       fees=0         elapsed=16.597ms
+INFO [07-04|05:10:41.892] Commit new mining work                   number=139 sealhash="27bc64…554c1d" uncles=0 txs=8   gas=168000  fees=3.36e-12  elapsed="995.992µs"
+INFO [07-04|05:10:42.245] Generating DAG in progress               epoch=1 percentage=28 elapsed=12m15.200s
+INFO [07-04|05:10:44.943] Commit new mining work                   number=139 sealhash="c6cdb8…e1feab" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed="906.788µs"
+INFO [07-04|05:10:46.483] Imported new chain segment               blocks=1 txs=20  mgas=0.420 elapsed=100.265ms   mgasps=4.189  number=139 hash="438e9e…b9ec53" dirty=182.81KiB
+INFO [07-04|05:10:46.512] 🔗 block reached canonical chain          number=132 hash="c293d8…d3e084"
+INFO [07-04|05:10:46.512] Commit new mining work                   number=140 sealhash="ba0dd2…3e1d40" uncles=0 txs=0   gas=0       fees=0         elapsed="283.642µs"
+INFO [07-04|05:10:46.513] Commit new mining work                   number=140 sealhash="f3a7d8…a8ed83" uncles=0 txs=2   gas=42000   fees=8.4e-13   elapsed="549.009µs"
+INFO [07-04|05:10:48.953] Successfully sealed new block            number=140 sealhash="f3a7d8…a8ed83" hash="92bbb6…2e9272" elapsed=2.441s
+INFO [07-04|05:10:48.954] 🔨 mined potential block                  number=140 hash="92bbb6…2e9272"
+INFO [07-04|05:10:48.959] Commit new mining work                   number=141 sealhash="a45858…c18af3" uncles=0 txs=0   gas=0       fees=0         elapsed="96.858µs"
+INFO [07-04|05:10:48.970] Commit new mining work                   number=141 sealhash="b99efc…1f956d" uncles=0 txs=8   gas=168000  fees=3.36e-12  elapsed=11.760ms
+INFO [07-04|05:10:51.990] Commit new mining work                   number=141 sealhash="de2c2f…363393" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=3.888ms
+INFO [07-04|05:10:53.914] Successfully sealed new block            number=141 sealhash="de2c2f…363393" hash="e22b1d…bf8966" elapsed=1.924s
+INFO [07-04|05:10:53.927] 🔗 block reached canonical chain          number=134 hash="c8de37…20f179"
+INFO [07-04|05:10:53.986] Commit new mining work                   number=142 sealhash="2c204d…32d297" uncles=0 txs=0   gas=0       fees=0         elapsed=59.800ms
+INFO [07-04|05:10:53.990] Commit new mining work                   number=142 sealhash="058727…3c54ed" uncles=0 txs=8   gas=168000  fees=3.36e-12  elapsed=63.572ms
+INFO [07-04|05:10:54.004] 🔨 mined potential block                  number=141 hash="e22b1d…bf8966"
+INFO [07-04|05:10:56.932] Commit new mining work                   number=142 sealhash="fa0f9b…40de07" uncles=0 txs=18  gas=378000  fees=7.56e-12  elapsed="944.728µs"
+INFO [07-04|05:10:59.630] Imported new chain segment               blocks=1 txs=18  mgas=0.378 elapsed=258.321ms   mgasps=1.463  number=142 hash="73f05c…519584" dirty=181.02KiB
+INFO [07-04|05:10:59.664] 🔗 block reached canonical chain          number=135 hash="aec7ab…8ce520"
+INFO [07-04|05:10:59.665] Commit new mining work                   number=143 sealhash="b943e6…e2b9b2" uncles=0 txs=0   gas=0       fees=0         elapsed="804.533µs"
+INFO [07-04|05:10:59.713] Commit new mining work                   number=143 sealhash="476ce0…398510" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=48.944ms
+INFO [07-04|05:11:01.379] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=242.074ms   mgasps=0.868  number=143 hash="dac9db…99f46a" dirty=180.57KiB
+INFO [07-04|05:11:01.384] 🔗 block reached canonical chain          number=136 hash="9072c0…c39d6d"
+INFO [07-04|05:11:01.385] Commit new mining work                   number=144 sealhash="bb36c4…541320" uncles=0 txs=0   gas=0       fees=0         elapsed="326.113µs"
+INFO [07-04|05:11:01.429] Commit new mining work                   number=144 sealhash="bb36c4…541320" uncles=0 txs=0   gas=0       fees=0         elapsed=45.120ms
+INFO [07-04|05:11:04.428] Commit new mining work                   number=144 sealhash="a7472f…df6113" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="684.778µs"
+INFO [07-04|05:11:07.450] Commit new mining work                   number=144 sealhash="a162ea…76c7d1" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=7.632ms
+INFO [07-04|05:11:08.042] Generating DAG in progress               epoch=1 percentage=29 elapsed=12m40.997s
+INFO [07-04|05:11:10.463] Commit new mining work                   number=144 sealhash="04ded7…34b44c" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=4.844ms
+INFO [07-04|05:11:13.582] Commit new mining work                   number=144 sealhash="a55bfd…ec2e83" uncles=0 txs=40  gas=840000  fees=1.68e-11  elapsed=108.120ms
+INFO [07-04|05:11:14.193] Imported new chain segment               blocks=1 txs=40  mgas=0.840 elapsed=136.776ms   mgasps=6.141  number=144 hash="bf3900…507e38" dirty=181.02KiB
+INFO [07-04|05:11:14.193] Commit new mining work                   number=145 sealhash="2d11bf…9f68e8" uncles=0 txs=0   gas=0       fees=0         elapsed="288.438µs"
+INFO [07-04|05:11:14.219] Commit new mining work                   number=145 sealhash="2d11bf…9f68e8" uncles=0 txs=0   gas=0       fees=0         elapsed=26.292ms
+INFO [07-04|05:11:17.204] Commit new mining work                   number=145 sealhash="693bc7…7a47a2" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="555.781µs"
+INFO [07-04|05:11:19.880] Imported new chain segment               blocks=1 txs=13  mgas=0.273 elapsed=128.110ms   mgasps=2.131  number=145 hash="1bf92c…1bd2c7" dirty=181.47KiB
+INFO [07-04|05:11:19.881] Commit new mining work                   number=146 sealhash="f2d021…b3f110" uncles=0 txs=0   gas=0       fees=0         elapsed="141.669µs"
+INFO [07-04|05:11:19.883] Commit new mining work                   number=146 sealhash="42e801…effb74" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=1.810ms
+INFO [07-04|05:11:22.901] Commit new mining work                   number=146 sealhash="2403b6…bdaa6c" uncles=0 txs=17  gas=357000  fees=7.14e-12  elapsed=1.480ms
+INFO [07-04|05:11:25.972] Commit new mining work                   number=146 sealhash="2b8bce…d81ca1" uncles=0 txs=27  gas=567000  fees=1.134e-11 elapsed=54.294ms
+INFO [07-04|05:11:28.930] Commit new mining work                   number=146 sealhash="05ba00…006a97" uncles=0 txs=37  gas=777000  fees=1.554e-11 elapsed=4.888ms
+INFO [07-04|05:11:30.939] Generating DAG in progress               epoch=1 percentage=30 elapsed=13m3.894s
+INFO [07-04|05:11:31.956] Commit new mining work                   number=146 sealhash="001844…284a9e" uncles=0 txs=47  gas=987000  fees=1.974e-11 elapsed=11.642ms
+INFO [07-04|05:11:34.969] Commit new mining work                   number=146 sealhash="1531ef…8233fc" uncles=0 txs=63  gas=1323000 fees=2.646e-11 elapsed=2.802ms
+INFO [07-04|05:11:38.080] Commit new mining work                   number=146 sealhash="b4062d…b1db4b" uncles=0 txs=68  gas=1428000 fees=2.856e-11 elapsed=102.143ms
+INFO [07-04|05:11:41.098] Commit new mining work                   number=146 sealhash="c3fcc7…2c614d" uncles=0 txs=83  gas=1743000 fees=3.486e-11 elapsed=105.128ms
+INFO [07-04|05:11:42.708] Imported new chain segment               blocks=1 txs=87  mgas=1.827 elapsed=368.386ms   mgasps=4.959  number=146 hash="a735a7…48dd7f" dirty=181.47KiB
+INFO [07-04|05:11:42.727] Commit new mining work                   number=147 sealhash="33b7d4…713f7f" uncles=0 txs=0   gas=0       fees=0         elapsed="67.593µs"
+INFO [07-04|05:11:42.778] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=11.834ms    mgasps=0.000  number=147 hash="a4e71b…4773ac" dirty=180.57KiB
+INFO [07-04|05:11:42.798] 🔗 block reached canonical chain          number=140 hash="92bbb6…2e9272"
+INFO [07-04|05:11:42.798] Commit new mining work                   number=148 sealhash="174c59…0e7f5b" uncles=0 txs=0   gas=0       fees=0         elapsed="832.167µs"
+INFO [07-04|05:11:45.847] Commit new mining work                   number=148 sealhash="6c50ed…63ce1c" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="557.776µs"
+INFO [07-04|05:11:47.495] Successfully sealed new block            number=148 sealhash="6c50ed…63ce1c" hash="4069c4…46f922" elapsed=1.647s
+INFO [07-04|05:11:47.507] 🔗 block reached canonical chain          number=141 hash="e22b1d…bf8966"
+INFO [07-04|05:11:47.507] 🔨 mined potential block                  number=148 hash="4069c4…46f922"
+INFO [07-04|05:11:47.525] Commit new mining work                   number=149 sealhash="912786…e92651" uncles=0 txs=0   gas=0       fees=0         elapsed="150.263µs"
+INFO [07-04|05:11:47.527] Commit new mining work                   number=149 sealhash="3d4ab4…791756" uncles=0 txs=8   gas=168000  fees=3.36e-12  elapsed=1.528ms
+INFO [07-04|05:11:48.427] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=176.821ms   mgasps=1.188  number=148 hash="447e04…681ea3" dirty=178.77KiB
+INFO [07-04|05:11:48.428] Commit new mining work                   number=149 sealhash="59e6e2…ed7057" uncles=1 txs=8   gas=168000  fees=3.36e-12  elapsed="245.919µs"
+INFO [07-04|05:11:50.004] Chain reorg detected                     number=147 hash="a4e71b…4773ac" drop=1 dropfrom="4069c4…46f922" add=2 addfrom="b88483…70124c"
+INFO [07-04|05:11:50.004] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=196.097ms   mgasps=1.071  number=149 hash="b88483…70124c" dirty=179.22KiB
+INFO [07-04|05:11:50.005] Commit new mining work                   number=150 sealhash="844d69…304be0" uncles=0 txs=0   gas=0       fees=0         elapsed="131.748µs"
+INFO [07-04|05:11:50.007] Commit new mining work                   number=150 sealhash="844d69…304be0" uncles=0 txs=0   gas=0       fees=0         elapsed=1.811ms
+INFO [07-04|05:11:50.595] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=122.612ms   mgasps=0.000  number=150 hash="1caad3…ceced1" dirty=178.77KiB
+INFO [07-04|05:11:50.614] Commit new mining work                   number=151 sealhash="7e9caf…2b52c1" uncles=0 txs=0   gas=0       fees=0         elapsed=6.955ms
+INFO [07-04|05:11:50.775] Commit new mining work                   number=151 sealhash="0c895b…17ac97" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=168.336ms
+INFO [07-04|05:11:52.995] Generating DAG in progress               epoch=1 percentage=31 elapsed=13m25.950s
+INFO [07-04|05:11:53.629] Commit new mining work                   number=151 sealhash="bacb4c…342b86" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.280ms
+INFO [07-04|05:11:54.740] Imported new chain segment               blocks=1 txs=10  mgas=0.210 elapsed=30.170ms    mgasps=6.960  number=151 hash="7db58d…d65b31" dirty=178.32KiB
+INFO [07-04|05:11:54.740] Commit new mining work                   number=152 sealhash="344335…9a3f02" uncles=0 txs=0   gas=0       fees=0         elapsed="185.894µs"
+INFO [07-04|05:11:54.744] Commit new mining work                   number=152 sealhash="bd4202…cfe2b2" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=4.585ms
+INFO [07-04|05:11:56.697] Successfully sealed new block            number=152 sealhash="bd4202…cfe2b2" hash="0cb1cd…226805" elapsed=1.952s
+INFO [07-04|05:11:56.697] 🔨 mined potential block                  number=152 hash="0cb1cd…226805"
+INFO [07-04|05:11:56.697] Commit new mining work                   number=153 sealhash="9ff964…427250" uncles=0 txs=0   gas=0       fees=0         elapsed="148.84µs"
+INFO [07-04|05:11:56.730] Commit new mining work                   number=153 sealhash="db79ba…f2c64d" uncles=0 txs=2   gas=42000   fees=8.4e-13   elapsed=32.742ms
+INFO [07-04|05:11:59.045] Imported new chain segment               blocks=1 txs=3   mgas=0.063 elapsed=12.103ms    mgasps=5.205  number=153 hash="72c7c8…03b601" dirty=177.87KiB
+INFO [07-04|05:11:59.048] Commit new mining work                   number=154 sealhash="ca1247…5403e5" uncles=0 txs=0   gas=0       fees=0         elapsed="115.842µs"
+INFO [07-04|05:11:59.057] Commit new mining work                   number=154 sealhash="790ba9…1fb4a0" uncles=0 txs=7   gas=147000  fees=2.94e-12  elapsed=9.524ms
+INFO [07-04|05:11:59.513] Imported new chain segment               blocks=1 txs=7   mgas=0.147 elapsed=65.504ms    mgasps=2.244  number=154 hash="094ed6…a0203a" dirty=177.87KiB
+INFO [07-04|05:11:59.571] Commit new mining work                   number=155 sealhash="06013d…23c74f" uncles=0 txs=0   gas=0       fees=0         elapsed="141.495µs"
+INFO [07-04|05:12:02.532] Successfully sealed new block            number=155 sealhash="06013d…23c74f" hash="e26d5a…446be2" elapsed=2.961s
+INFO [07-04|05:12:02.534] ⑂ block became an uncle                  number=148 hash="4069c4…46f922"
+INFO [07-04|05:12:02.534] 🔨 mined potential block                  number=155 hash="e26d5a…446be2"
+INFO [07-04|05:12:02.534] Commit new mining work                   number=156 sealhash="38bfed…9db019" uncles=0 txs=0   gas=0       fees=0         elapsed="130.802µs"
+INFO [07-04|05:12:02.548] Commit new mining work                   number=156 sealhash="2983c8…d31b9a" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed=13.910ms
+INFO [07-04|05:12:05.537] Commit new mining work                   number=156 sealhash="345551…767df9" uncles=0 txs=20  gas=420000  fees=8.4e-12   elapsed=1.084ms
+INFO [07-04|05:12:08.561] Commit new mining work                   number=156 sealhash="328ec2…a9369d" uncles=0 txs=30  gas=630000  fees=1.26e-11  elapsed=1.572ms
+INFO [07-04|05:12:11.585] Commit new mining work                   number=156 sealhash="cf46c8…ac72b1" uncles=0 txs=50  gas=1050000 fees=2.1e-11   elapsed=2.480ms
+INFO [07-04|05:12:12.622] Generating DAG in progress               epoch=1 percentage=32 elapsed=13m45.577s
+INFO [07-04|05:12:14.590] Commit new mining work                   number=156 sealhash="fe75ef…7cfa00" uncles=0 txs=55  gas=1155000 fees=2.31e-11  elapsed=2.546ms
+INFO [07-04|05:12:17.698] Commit new mining work                   number=156 sealhash="0e86ad…a391cd" uncles=0 txs=68  gas=1428000 fees=2.856e-11 elapsed=85.218ms
+INFO [07-04|05:12:17.718] Imported new chain segment               blocks=1 txs=58  mgas=1.218 elapsed=442.913ms   mgasps=2.750  number=156 hash="2d001a…13f9ca" dirty=176.96KiB
+INFO [07-04|05:12:17.889] Commit new mining work                   number=157 sealhash="14f0fa…05b231" uncles=0 txs=0   gas=0       fees=0         elapsed=1.657ms
+INFO [07-04|05:12:17.970] Commit new mining work                   number=157 sealhash="25e886…1fdf36" uncles=0 txs=12  gas=252000  fees=5.04e-12  elapsed=82.380ms
+INFO [07-04|05:12:20.821] Commit new mining work                   number=157 sealhash="b15c4f…c14d90" uncles=0 txs=22  gas=462000  fees=9.24e-12  elapsed=1.104ms
+INFO [07-04|05:12:23.852] Commit new mining work                   number=157 sealhash="2fe009…25e09f" uncles=0 txs=31  gas=651000  fees=1.302e-11 elapsed=1.556ms
+INFO [07-04|05:12:26.241] Imported new chain segment               blocks=1 txs=26  mgas=0.546 elapsed=98.158ms    mgasps=5.562  number=157 hash="37e0ab…37b273" dirty=177.41KiB
+INFO [07-04|05:12:26.242] Commit new mining work                   number=158 sealhash="97aefc…edc9f8" uncles=0 txs=0   gas=0       fees=0         elapsed="314.461µs"
+INFO [07-04|05:12:26.246] Commit new mining work                   number=158 sealhash="1a9760…af9c5c" uncles=0 txs=16  gas=336000  fees=6.72e-12  elapsed=4.278ms
+INFO [07-04|05:12:29.263] Commit new mining work                   number=158 sealhash="514b30…85c9e8" uncles=0 txs=26  gas=546000  fees=1.092e-11 elapsed=1.337ms
+INFO [07-04|05:12:30.677] Successfully sealed new block            number=158 sealhash="514b30…85c9e8" hash="93bfc0…b1a2d5" elapsed=1.414s
+INFO [07-04|05:12:30.677] 🔨 mined potential block                  number=158 hash="93bfc0…b1a2d5"
+INFO [07-04|05:12:30.693] Commit new mining work                   number=159 sealhash="d0418a…40b619" uncles=0 txs=0   gas=0       fees=0         elapsed="243.89µs"
+INFO [07-04|05:12:30.764] Commit new mining work                   number=159 sealhash="d0418a…40b619" uncles=0 txs=0   gas=0       fees=0         elapsed=71.251ms
+INFO [07-04|05:12:32.045] Generating DAG in progress               epoch=1 percentage=33 elapsed=14m5.000s
+INFO [07-04|05:12:33.711] Commit new mining work                   number=159 sealhash="defb25…51924e" uncles=0 txs=10  gas=210000  fees=4.2e-12   elapsed="572.598µs"
+INFO [07-04|05:12:34.101] Successfully sealed new block            number=159 sealhash="defb25…51924e" hash="8b2c63…b1a42e" elapsed=390.055ms
+INFO [07-04|05:12:34.101] 🔗 block reached canonical chain          number=152 hash="0cb1cd…226805"
+INFO [07-04|05:12:34.101] 🔨 mined potential block                  number=159 hash="8b2c63…b1a42e"
+INFO [07-04|05:12:34.102] Commit new mining work                   number=160 sealhash="a8a63a…07ed46" uncles=0 txs=0   gas=0       fees=0         elapsed="110.56µs"
+INFO [07-04|05:12:34.108] Commit new mining work                   number=160 sealhash="a8a63a…07ed46" uncles=0 txs=0   gas=0       fees=0         elapsed=6.142ms
+INFO [07-04|05:12:34.645] Imported new chain segment               blocks=1 txs=2   mgas=0.042 elapsed=24.680ms    mgasps=1.702  number=159 hash="2bfd6c…9a92df" dirty=179.21KiB
+INFO [07-04|05:12:34.645] Commit new mining work                   number=160 sealhash="a56dc4…13008e" uncles=1 txs=0   gas=0       fees=0         elapsed="107.38µs"
+INFO [07-04|05:12:47.632] Generating DAG in progress               epoch=1 percentage=34 elapsed=14m20.587s
+INFO [07-04|05:12:56.548] Chain reorg detected                     number=158 hash="93bfc0…b1a2d5" drop=1 dropfrom="8b2c63…b1a42e" add=2 addfrom="1899bb…3ef121"
+INFO [07-04|05:12:56.548] Imported new chain segment               blocks=1 txs=8   mgas=0.168 elapsed=72.013ms    mgasps=2.333  number=160 hash="1899bb…3ef121" dirty=178.30KiB
+INFO [07-04|05:12:56.560] Commit new mining work                   number=161 sealhash="26951d…e37f3f" uncles=0 txs=0   gas=0       fees=0         elapsed="104.812µs"
+INFO [07-04|05:12:56.898] Successfully sealed new block            number=161 sealhash="26951d…e37f3f" hash="cb3288…990c92" elapsed=337.998ms
+INFO [07-04|05:12:56.898] 🔨 mined potential block                  number=161 hash="cb3288…990c92"
+INFO [07-04|05:12:56.908] Commit new mining work                   number=162 sealhash="e072f0…df727b" uncles=0 txs=0   gas=0       fees=0         elapsed=1.578ms
+INFO [07-04|05:13:01.515] Generating DAG in progress               epoch=1 percentage=35 elapsed=14m34.470s
+INFO [07-04|05:13:02.109] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=63.192ms    mgasps=0.000  number=162 hash="19e98a…40d0c7" dirty=176.95KiB
+INFO [07-04|05:13:02.110] 🔗 block reached canonical chain          number=155 hash="e26d5a…446be2"
+INFO [07-04|05:13:02.115] Commit new mining work                   number=163 sealhash="f623ce…366c34" uncles=0 txs=0   gas=0       fees=0         elapsed=5.184ms
+INFO [07-04|05:13:02.263] Imported new chain segment               blocks=1 txs=0   mgas=0.000 elapsed=10.708ms    mgasps=0.000  number=163 hash="20a01f…0d0d97" dirty=176.50KiB
+INFO [07-04|05:13:02.281] Commit new mining work                   number=164 sealhash="904bb0…500c09" uncles=0 txs=0   gas=0       fees=0         elapsed="197.431µs"
+INFO [07-04|05:13:03.283] Successfully sealed new block            number=164 sealhash="904bb0…500c09" hash="435df9…91176d" elapsed=1.002s
+INFO [07-04|05:13:03.289] 🔨 mined potential block                  number=164 hash="435df9…91176d"
+INFO [07-04|05:13:03.289] Commit new mining work                   number=165 sealhash="8e6fc9…253135" uncles=0 txs=0   gas=0       fees=0         elapsed="136.85µs"
+INFO [07-04|05:13:05.475] Successfully sealed new block            number=165 sealhash="8e6fc9…253135" hash="d533f5…1034c7" elapsed=2.186s
+INFO [07-04|05:13:05.476] 🔗 block reached canonical chain          number=158 hash="93bfc0…b1a2d5"
+INFO [07-04|05:13:05.476] 🔨 mined potential block                  number=165 hash="d533f5…1034c7"
+INFO [07-04|05:13:05.482] Commit new mining work                   number=166 sealhash="1943f0…7c709a" uncles=0 txs=0   gas=0       fees=0         elapsed="129.951µs"
+INFO [07-04|05:13:16.771] Generating DAG in progress               epoch=1 percentage=36 elapsed=14m49.726s
